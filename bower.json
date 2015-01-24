@@ -1,0 +1,27 @@
+{
+  "name": "slidedeck",
+  "version": "0.0.0",
+  "homepage": "https://github.com/heiglandreas/slidedeck",
+  "authors": [
+    "Andreas Heigl <andreas@heigl.org>"
+  ],
+  "description": "My Personal slidedeck",
+  "main": "index.php",
+  "keywords": [
+    "slidedeck",
+    "andreas",
+    "heigl"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.0.0"
+  }
+}
