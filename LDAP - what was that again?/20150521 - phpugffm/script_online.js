@@ -18,11 +18,11 @@ Reveal.initialize({
 
     // Optional libraries used to extend on reveal.js
     dependencies: [
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-        { src: 'http://cdn.rawgit.com/hakimel/reveal.js/master/plugin/notes/notes.js' , async: true, condition: function() { return !!document.body.classList; } }
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'http://rawgit.com/hakimel/reveal.js/master/plugin/notes/notes.js' , async: true, condition: function() { return !!document.body.classList; } }
     ]
 });
