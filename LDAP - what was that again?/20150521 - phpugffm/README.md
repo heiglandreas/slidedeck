@@ -2,4 +2,4 @@ LDAP
 
 What was that again?
 
-Talk given at the unkonf 2015 in Mannheim
+Talk given at the PHP-Usergroup Frankfurt/Main on May 21st 2015
