@@ -16,7 +16,7 @@
 <style type="text/css">
     .reveal .footer-right {
         color          : #eeeeee;
-        font-family    : "League Gothic", Impact, sans-serif;
+        /*     font-family    : "League Gothic", Impact, sans-serif;*/
         letter-spacing : 0.02em;
         line-height    : 0.9em;
         margin         : 0 0 20px;
@@ -26,6 +26,31 @@
         text-align:left;
         padding-left: 5px;
         position:absolute;
+    }
+    .light {
+        color: gray;
+    }
+
+    .reveal dl.frontmatter {
+        margin-left:150px;
+        font-size:1.5rem
+    }
+    .reveal .frontmatter dt {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.8em;
+        width: 150px;
+        float: left;
+        text-align: right;
+    }
+    .reveal .frontmatter dt:after {
+        content: ":";
+    }
+    .reveal .frontmatter dd {
+        margin-left: 160px;
+    }
+    .reveal .frontmatter dd:first-of-type {
+        font-size: 1.5em;
     }
 </style>
 <meta name="apple-mobile-web-app-capable" content="yes" />
