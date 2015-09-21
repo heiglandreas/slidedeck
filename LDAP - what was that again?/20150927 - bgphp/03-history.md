@@ -26,12 +26,14 @@ Note: LDAP was created to complement DAP with a TCP-based protocol that provides
 
 # Why LDAP?
 
-* Directories are centralized information-storages
-* Distributed setup
-* Optimized for fast reading
-* Usage for many different reasons and purposes
-    * Authentication/Authorization
-    * Addressbook
-    * License-management
-    * …
-* One password for all
+<ul>
+<li class="fragment">Directories are centralized information-storages</li>
+<li class="fragment">Distributed setup</li>
+<li class="fragment">Optimized for fast reading</li>
+<li class="fragment">Usage for many different reasons and purposes<ul>
+    <li>Authentication/Authorization</li>
+    <li>Addressbook</li>
+    <li>License-management</li>
+    <li>…</li></ul></li>
+<li class="fragment">One password for all</li>
+</ul>

@@ -1,20 +1,23 @@
 # Authenticate
 
-Note:
-So here's the real mcCoy! We finaly get to authentication via directoy Services!!
-previously we've edited the directory without loging in.
+Note: As a directory contains Login-Information the mostly used feature for LDAP in PHP is authentication
+
 
 
 
 
 ## bind
 
-(No, not the DNS-server)
+<ul>
+<li class="fragment">(No, not the DNS-server)</li>
+</ul>
+
 Note:
 Before we can retrieve information we have to bind to the server using a DN and a password.
 
 
 
+## bind
 
 ```php
 $con = ldap_connect($ldapURI);
