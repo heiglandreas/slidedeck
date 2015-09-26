@@ -9,7 +9,7 @@
 <li>Co-Organizer of the <a href="http://phpugffm.de">PHP-Usergroup in Frankfurt/Main</a></li>
 <li>Head behind <a href="http://php.ug">php.ug</a></li>
 <li>minor contributor to ext/ldap</li>
-<li>Maintainer of <a href="https://github.com/zendframework/zend-ldap">Zend\Ldap</a></li>
+<li>Co-Maintainer of <a href="https://github.com/zendframework/zend-ldap">Zend\Ldap</a></li>
 </ul>
 <table>
 <tr><td style="text-align:left;">

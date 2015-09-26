@@ -4,7 +4,7 @@
 <li class="fragment">Directory contains <strong>Entries</strong></li>
 <li class="fragment">Entries implement <strong>objectclass</strong>es</li>
 <li class="fragment">objectclass specifies mandatory and optional <strong>attributes</strong></li>
-<li class="fragment">attributes and objectclass are defined by <strong>schema</strong>-files</li>
+<li class="fragment">attributes and objectclasses are defined by <strong>schema</strong>-files</li>
 <li class="fragment">Entries are <strong>tree</strong>-like structured</li>
 <li class="fragment">Entries are identified by their <strong>DN</strong></li>
 </ul>

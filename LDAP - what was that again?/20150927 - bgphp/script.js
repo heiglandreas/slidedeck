@@ -23,6 +23,7 @@ Reveal.initialize({
         { src: '../../inc/lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
         { src: '../../inc/lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: '../../inc/lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-        { src: '../../inc/lib/reveal.js/plugin/notes/notes.js' , async: true, condition: function() { return !!document.body.classList; } }
+        { src: '../../inc/lib/reveal.js/plugin/notes/notes.js' , async: true, condition: function() { return !!document.body.classList; } },
+        { src: '../../inc/lib/reveal.js/plugin/print-pdf/print-pdf.js' , async: true, condition: function() { return !!document.body.classList; } }
     ]
 });
