@@ -84,14 +84,14 @@ array(
         'dn' => 'uid=heiglandreas,cn=phpugffm,cn=usergroups',
         'count' => 2,
         0 => 'mail',
-        1 => 'cn',
+        1 => 'sn',
         'mail' => array(
             'count' => 1,
             0 => 'andreas@phpugffm.de',
         ),
-        'cn' => array(
+        'sn' => array(
             'count' => 1,
-            0 => 'Andreas Heigl',
+            0 => 'Heigl',
          ),
     ),
 )
