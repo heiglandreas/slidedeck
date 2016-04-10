@@ -52,6 +52,16 @@
     .reveal .frontmatter dd:first-of-type {
         font-size: 1.5em;
     }
+    .reveal img {
+        max-height:600px;
+    }
+    .reveal img[src^="img/timezones201"] {
+        max-height:250px;
+    }
+    .hljs-comment {
+        color: #dcdcdc;
+        font-style: italic!important;
+    }
 </style>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -77,5 +87,7 @@
 <script type="text/javascript" src="http://rawgit.com/hakimel/reveal.js/master/lib/js/head.min.js"></script>
 <script type="text/javascript" src="http://rawgit.com/hakimel/reveal.js/master/js/reveal.js"></script>
 <script type="text/javascript" src="script_online.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/moment-timezone-with-data.min.js"></script>
 </body>
 </html>
