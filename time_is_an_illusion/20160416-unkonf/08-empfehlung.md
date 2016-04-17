@@ -16,8 +16,20 @@ var timezone = moment.tz.guess();
 
 
 
+## How to get timezones for a country?
 
-## How to get timezone for a location?
+```php
+print_r(DateTimezone::listIdentifiers(DateTimeZone::PER_COUNTRY, 'DE'));
+/*
+Array
+(
+    [0] => Europe/Berlin
+    [1] => Europe/Busingen
+)
+*/
+```
+
+
 
 ```bash
 $ curl http://api.timezonedb.com/?lat=46.697705&lng=8.689613&format=json&key=xxxx
@@ -33,6 +45,24 @@ $ curl http://api.timezonedb.com/?lat=46.697705&lng=8.689613&format=json&key=xxx
     "zoneName": "Europe/Busingen"
 }
 ```
+
+
+
+## How to get timezones for abbreviation?
+
+```php
+DateTimeZone::listAbbreviations()['cemt'];
+/*
+Array (
+    [0] => Array (
+            [dst] => 1
+            [offset] => 10800
+            [timezone_id] => Europe/Berlin
+        )
+)
+*/
+```
+
 
 
 

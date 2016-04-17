@@ -73,12 +73,49 @@ Note: Crimean anexion in 2014, During WW2 in Germany, Political reasons (Venezue
 
 100 Years of<!-- .element: class="fragment" -->
 ## Summertime
+## Daylight Savings Time<!-- .element: class="fragment" -->
 
 Note: To save energie as because the human activity-cycle is offset to the daylight cycle
 Summertime was "invented". Offsets the time 1 hour plus against default time-coordinate.
-In germany in 1944 there was even 2 summertimes. Start of summertime is coordinated
+In germany in 1947 there was even 2 summertimes. Start of summertime is coordinated
 but not the same in europe and america... 30 April 1916 Detusches Reich
 
+
+
+```php
+new DateTimeZone('Europe/Berlin')->getTransitions();
+/*
+[21] => Array (
+        [ts] => -717631200
+        [time] => 1947-04-06T02:00:00+0000
+        [offset] => 7200
+        [isdst] => 1
+        [abbr] => CEST
+    )
+[22] => Array (
+        [ts] => -714610800
+        [time] => 1947-05-11T01:00:00+0000
+        [offset] => 10800
+        [isdst] => 1
+        [abbr] => CEMT
+    )
+[23] => Array (
+        [ts] => -710380800
+        [time] => 1947-06-29T00:00:00+0000
+        [offset] => 7200
+        [isdst] => 1
+        [abbr] => CEST
+    )
+[24] => Array (
+        [ts] => -701910000
+        [time] => 1947-10-05T01:00:00+0000
+        [offset] => 3600
+        [isdst] =>
+        [abbr] => CET
+    )
+
+*/
+```
 
 
 

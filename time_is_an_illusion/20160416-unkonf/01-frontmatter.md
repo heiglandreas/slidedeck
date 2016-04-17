@@ -1,5 +1,6 @@
 # time is an illusion
-## lunchtime doubly so
+## lunchtime doubly so<!-- .element: class="fragment" -->
+<span class="credit">Douglas Adams</span>
 
 
 

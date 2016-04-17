@@ -4,6 +4,7 @@
 * Use two fields<!-- .element: class="fragment" -->
 * one Datetime with local OR UTC time<!-- .element: class="fragment" -->
 * one string with the associated timezone (not offset!)<!-- .element: class="fragment" -->
+* use ```SET time_zone = timezone``` <!-- .element: class="fragment" -->
 
 
 
