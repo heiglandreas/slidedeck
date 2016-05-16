@@ -15,4 +15,5 @@ If you find issues or have comments or questions please use the [issue-tracker](
  * [LDAP - what was that again?](http://rawgit.com/heiglandreas/slidedeck/master/LDAP - what was that again%3F/20160225 - phpugmrn/index_online.html) - An introduction to LDAP: PHP Usergroup MRN (25. 2. 2016) - english
  * [Schei� Encoding](http://rawgit.com/heiglandreas/slidedeck/master/Schei_Encoding/20160315 -phpugmuenster/index_online.html) - von Codierungen und Ã¤hnlichem (15. 3. 2016) - deutsch
  * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20160416-unkonf/index_online.html) - An introduction to timezones and how to handle them. Easily: unKonf Manheim (16. 04. 2016) - english
+ * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20160519-phpugffm/index_online.html) - An introduction to timezones and how to handle them. Easily: PHP-Usergroups Franfurt (19. 05. 2016) - english
 
