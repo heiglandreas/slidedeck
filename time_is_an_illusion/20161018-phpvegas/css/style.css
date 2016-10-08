@@ -1,0 +1,26 @@
+div.multicolumn{
+    -moz-column-count: 2;
+    -moz-column-gap: 50%;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 50%;
+    column-count: 3;
+    column-gap: 50%;
+}
+
+span.credit {
+    font-size:12px;
+    line-height: 1em;
+    margin-top: -20px;
+    position: relative;
+    display: block;
+    text-align: right;
+    color: gray;
+}
+
+span.credit a {
+    color: gray;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}
