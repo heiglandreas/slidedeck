@@ -7,30 +7,22 @@ div.multicolumn{
     column-gap: 50%;
 }
 
-.light {
+span.credit {
+    font-size:12px;
+    line-height: 1em;
+    margin-top: -20px;
+    position: relative;
+    display: block;
+    text-align: right;
     color: gray;
 }
 
-.reveal dl.frontmatter {
-    margin-left:150px;
-    font-size:1.5rem
+span.credit a {
+    color: gray;
 }
-.reveal .frontmatter dt {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.8em;
-    width: 150px;
-    float: left;
-    text-align: right;
-}
-.reveal .frontmatter dt:after {
-    content: ":";
-}
-.reveal .frontmatter dd {
-    margin-left: 160px;
-}
-.reveal .frontmatter dd:first-of-type {
-    font-size: 1.5em;
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
 }
 
 .reveal .footer-left {
@@ -64,6 +56,34 @@ div.multicolumn{
     color: gray;
 }
 
-.reveal a, .reveal a:hover, .reveal a:visited, .reveal a:active {
-    color: #555;
+.reveal dl.frontmatter {
+    margin-left:150px;
+    font-size:1.5rem
+}
+.reveal .frontmatter dt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8em;
+    width: 150px;
+    float: left;
+    text-align: right;
+}
+.reveal .frontmatter dt:after {
+    content: ":";
+}
+.reveal .frontmatter dd {
+    margin-left: 160px;
+}
+.reveal .frontmatter dd:first-of-type {
+    font-size: 1.5em;
+}
+.reveal img {
+    max-height:600px;
+}
+.reveal img[src^="img/timezones201"] {
+    max-height:250px;
+}
+.hljs-comment {
+    color: #448844;
+    font-style: italic!important;
 }

@@ -1,0 +1,72 @@
+.reveal .footer-right {
+    color          : #111;
+                   /*     font-family    : "League Gothic", Impact, sans-serif;*/
+    letter-spacing : 0.02em;
+    line-height    : 0.9em;
+    margin         : 0 0 20px;
+    text-shadow    : 0 0 6px rgba(255, 255, 255, 0.2);
+    bottom : 0px;
+    text-align:right;
+    padding: 0 5px;
+    position:absolute;
+    right: 0;
+}
+
+.reveal .footer-left {
+    color          : #111;
+                   /*     font-family    : "League Gothic", Impact, sans-serif;*/
+    letter-spacing : 0.02em;
+    line-height    : 0.9em;
+    margin         : 0 0 20px;
+    text-shadow    : 0 0 6px rgba(255, 255, 255, 0.2);
+    bottom : 0px;
+    text-align:left;
+    padding-left: 5px;
+    position:absolute;
+    left: 0;
+}
+.light {
+    color: gray;
+}
+
+.reveal dl.frontmatter {
+    margin-left:150px;
+    font-size:1.5rem
+}
+
+.reveal ul {
+    list-style-type: none;
+}
+.reveal .frontmatter dt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8em;
+    width: 150px;
+    float: left;
+    text-align: right;
+}
+.reveal .frontmatter dt:after {
+    content: ":";
+}
+.reveal .frontmatter dd {
+    margin-left: 160px;
+}
+.reveal .frontmatter dd:first-of-type {
+    font-size: 1.5em;
+}
+.reveal img {
+    max-height:600px;
+}
+.reveal img[src^="img/timezones201"] {
+    max-height:250px;
+}
+.hljs-comment {
+    color: #dcdcdc;
+    font-style: italic!important;
+}
+.reveal code {
+    font-family: monofur, Courier, monospace;
+    background-color: rgba(0,0,0,0.1);
+    padding: 0 5px 2px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
