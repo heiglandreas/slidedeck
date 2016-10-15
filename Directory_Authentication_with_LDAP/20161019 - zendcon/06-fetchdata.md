@@ -6,7 +6,9 @@
 ## LDAP-Filter
 
 <pre><code class="php hljs">attributename=value</code></pre><!-- .element: class="fragment" -->
+<pre><code class="php hljs">attributename=*</code></pre><!-- .element: class="fragment" -->
 <pre><code class="php hljs">attributename=value*</code></pre><!-- .element: class="fragment" -->
+<pre><code class="php hljs" style="text-decoration:line-through">attributename=*value</code></pre><!-- .element: class="fragment" -->
 
 Note:
 How to find anything - You can also use value* to find things beginning with a certain string.

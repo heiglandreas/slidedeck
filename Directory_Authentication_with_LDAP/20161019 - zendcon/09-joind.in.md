@@ -12,9 +12,9 @@ the knowhow from this session and the documentation on php.net no problem.
 <div class="multicolumn">
 <div>
 <p>You can rate this talk at <a href="http://joind.in">joind.in</a>.</p>
-<p><a href="https://joind.in/talk/3289d">https://joind.in/talk/3289d</a></p>
+<p><a href="http://hei.gl/3">joind.in/talk/c274b</a></p>
 </div>
 <div>
-![https://joind.in/talk/3289d](img/joindin-qr.jpg)
+![https://joind.in/talk/c274b](img/joindin-qr.png)
 </div>
 </div>

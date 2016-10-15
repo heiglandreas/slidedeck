@@ -25,18 +25,22 @@
 <li class="fragment"><strong>only</strong> attributes defined in the objectclasses can be used for the Entry</li>
 <li class="fragment"><code>$ ldapsearch -H ldap://ldap.example.com -x -s base -b "cn=subschema" objectclasses</code></li>
 </ul>
+<!--code class="fragment" style="font-size: 0.5em; line-height: 0.5em">objectClasses: ( 2.5.6.6 NAME 'person' DESC 'RFC2256: a person' SUP top 
+STRUCTURAL MUST ( sn $ cn ) MAY ( userPassword $ telephoneNumber $ seeAlso $ description ) )</code-->
 
 
 
 
 ## objectclass specifies mandatory and optional attributes
 
+
 <ul>
 <li class="fragment"><em>person</em> <strong>has</strong> to contain <code>sn</code> and <code>cn</code> and <strong>can</strong> contain ```userPassword```, ```telephoneNumber```, ```seeAlso``` and ```description```</li>
 <li class="fragment">attributes can be multivalued (most are)</li>
 <li class="fragment">```$ ldapsearch -H ldap://ldap.example.com -x -s base -b "cn=subschema" attributeTypes```</li>
 </ul>
-
+<!--code class="fragment" style="font-size:0.5em; line-height: 0.6em;">attributeTypes: ( 2.5.4.3 NAME 
+( 'cn' 'commonName' ) DESC 'RFC4519: common name(s) for which the entity is known by' SUP name )</code-->
 
 
 
