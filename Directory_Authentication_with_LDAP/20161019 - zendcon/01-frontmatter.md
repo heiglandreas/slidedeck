@@ -1,5 +1,5 @@
-# LDAP
-### what was that again?
+# Directory Authentication
+###  with LDAP
 
 
 

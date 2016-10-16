@@ -67,3 +67,6 @@ div.multicolumn{
 .reveal a, .reveal a:hover, .reveal a:visited, .reveal a:active {
     color: #555;
 }
+.reveal code {
+    font-family : monofur, Courier, monospace;
+}

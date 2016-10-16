@@ -87,3 +87,6 @@ span.credit a {
     color: #448844;
     font-style: italic!important;
 }
+.reveal code {
+    font-family : monofur, Courier, monospace;
+}

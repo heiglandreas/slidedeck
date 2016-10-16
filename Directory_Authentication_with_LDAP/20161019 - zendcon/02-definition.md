@@ -4,13 +4,13 @@
 
 
 <!-- .slide: data-transition="fade-in" -->
-## *L*ightweight *D*irectory *A*ccess *P*rotocol
+## **L**ightweight **D**irectory **A**ccess **P**rotocol
 
 
 
 
 <!-- .slide: data-transition="fade-in" -->
-## <span class="light">*L*ightweight *D*irectory *A*ccess</span> *P*rotocol
+## <span class="light">**L**ightweight **D**irectory **A**ccess</span> **P**rotocol
 
 Note:
 * It's an interface you code against
@@ -22,7 +22,7 @@ Note:
 
 
 <!-- .slide: data-transition="fade-in" -->
-## <span class="light">*L*ightweight *D*irectory</span> *A*ccess <span class="light">*P*rotocol</span>
+## <span class="light">**L**ightweight **D**irectory</span> **A**ccess <span class="light">**P**rotocol</span>
 
 Note:
 * It's about Access, Create, Modify and Delete data
@@ -33,7 +33,7 @@ Note:
 
 
 <!-- .slide: data-transition="fade-in" -->
-## <span class="light">*L*ightweight</span> *D*irectory <span class="light">*A*ccess *P*rotocol</span>
+## <span class="light">**L**ightweight</span> **D**irectory <span class="light">**A**ccess **P**rotocol</span>
 
 Note:
 * Tree-like
@@ -45,7 +45,7 @@ Note:
 
 
 <!-- .slide: data-transition="fade-in" -->
-## *L*ightweight <span class="light">*D*irectory <span class="light">*A*ccess *P*rotocol</span>
+## **L**ightweight <span class="light">**D**irectory <span class="light">**A**ccess **P**rotocol</span>
 
 Note:
 * Opposed to ```DAP``` or ```X500```
