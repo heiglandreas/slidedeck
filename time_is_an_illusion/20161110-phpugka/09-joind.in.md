@@ -6,6 +6,6 @@
 <p><a href="http://hei.gl/4">joind.in/talk/3ca2a</a></p>
 </div>
 <div>
-![http://hei.gl/4](img/qr.jph)
+![http://hei.gl/4](img/qr.jpg)
 </div>
 </div>

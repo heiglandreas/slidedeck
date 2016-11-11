@@ -83,6 +83,6 @@ print_r((new DateTimezone('-07:00'))->getLocation());
 ### Stay current!<!-- .element: class="fragment" -->
 
 https://pecl.php.net/package/timezonedb<!-- .element: class="fragment" -->
-https://https://www.iana.org/time-zones<!-- .element: class="fragment" -->
+https://www.iana.org/time-zones<!-- .element: class="fragment" -->
 
 Note: TZ-Database is kept up-to-date by Paul Eggers. Hosted by IANA
