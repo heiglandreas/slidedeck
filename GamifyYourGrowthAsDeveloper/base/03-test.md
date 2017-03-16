@@ -1,0 +1,17 @@
+## Step 2: Test
+
+> phpunit
+
+
+
+## Test
+
+![phpunit-result1](../base/img/phpunit-result_1.png)
+
+
+
+## Test
+
+* see tests as personal challenge
+* making code testable makes it also easier to understand
+
