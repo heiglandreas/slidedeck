@@ -1,0 +1,108 @@
+/*!
+ * Clear Sans Webfont
+ *
+ * Webfont conversion of the Clear Sans typeface, designed by the
+ * Intel Open Source Technology Center <https://01.org/clear-sans>
+ *
+ * Original font file released under the Apache 2.0 License
+ * <http://www.apache.org/licenses/LICENSE-2.0.html>
+ *
+ * Webfont version by Resi Respati <resir014@gmail.com>
+ * Released under the MIT License.
+ */
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('ClearSans-Thin'), local('Clear Sans Thin'),
+         url('ClearSans-Thin.eot'),
+         url('ClearSans-Thin.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Thin.woff') format('woff'),
+         url('ClearSans-Thin.ttf') format('truetype'),
+         url('ClearSans-Thin.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('ClearSans-Light'), local('Clear Sans Light'),
+         url('ClearSans-Light.eot'),
+         url('ClearSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Light.woff') format('woff'),
+         url('ClearSans-Light.ttf') format('truetype'),
+         url('ClearSans-Light.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ClearSans'), local('Clear Sans'),
+         url('ClearSans-Regular.eot'),
+         url('ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Regular.woff') format('woff'),
+         url('ClearSans-Regular.ttf') format('truetype'),
+         url('ClearSans-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('ClearSans-Italic'), local('Clear Sans Italic'),
+         url('ClearSans-Italic.eot'),
+         url('ClearSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Italic.woff') format('woff'),
+         url('ClearSans-Italic.ttf') format('truetype'),
+         url('ClearSans-Italic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('ClearSans-Medium'), local('Clear Sans Medium'),
+         url('ClearSans-Medium.eot'),
+         url('ClearSans-Medium.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Medium.woff') format('woff'),
+         url('ClearSans-Medium.ttf') format('truetype'),
+         url('ClearSans-Medium.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: local('ClearSans-MediumItalic'), local('Clear Sans Medium Italic'),
+         url('ClearSans-MediumItalic.eot'),
+         url('ClearSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-MediumItalic.woff') format('woff'),
+         url('ClearSans-MediumItalic.ttf') format('truetype'),
+         url('ClearSans-MediumItalic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('ClearSans-Bold'), local('Clear Sans Bold'),
+         url('ClearSans-Bold.eot'),
+         url('ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-Bold.woff') format('woff'),
+         url('ClearSans-Bold.ttf') format('truetype'),
+         url('ClearSans-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('ClearSans-BoldItalic'), local('Clear Sans Bold Italic'),
+         url('ClearSans-BoldItalic.eot'),
+         url('ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('ClearSans-BoldItalic.woff') format('woff'),
+         url('ClearSans-BoldItalic.ttf') format('truetype'),
+         url('ClearSans-BoldItalic.svg') format('svg');
+}

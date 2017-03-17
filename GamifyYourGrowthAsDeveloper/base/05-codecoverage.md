@@ -1,0 +1,39 @@
+## Step 4: Check Code-Coverage
+
+> how much of my code is covered by tests
+
+
+
+## Code-Coverage
+
+![PHPUnit](../base/img/phpunit-result_1.png)
+
+
+
+## Code-Coverage
+
+![PHPUnit with CodeCoverage](../base/img/phpunit_codecoverage_2.png)
+
+
+
+
+## Code-Coverage
+
+![PHPUnit with 100% Code-Coverage](../base/img/phpunit_codecoverage_1.png)
+
+
+
+
+## Code-Coverage
+
+> Don't *force* 100%
+
+
+
+
+## Code-Coverage
+
+> Shows *that* a line is used within a test. 
+> It's only a measurement of *quantity*, not *quality*
+
+

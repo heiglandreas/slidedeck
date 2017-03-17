@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200">
+    <linearGradient id="a" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <rect rx="30" width="900" height="200" fill="#555"/>
+    <rect rx="30" x="370" width="530" height="200" fill="#4c1"/>
+    <path fill="#4c1" d="M370 0h40v200h-40z"/>
+    <rect rx="30" width="900" height="200" fill="url(#a)"/>
+    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
+        <text x="195" y="150" fill="#010101" fill-opacity=".3">build</text>
+        <text x="195" y="140">build</text>
+        <text x="625" y="150" fill="#010101" fill-opacity=".3">passing</text>
+        <text x="625" y="140">passing</text>
+    </g>
+</svg>

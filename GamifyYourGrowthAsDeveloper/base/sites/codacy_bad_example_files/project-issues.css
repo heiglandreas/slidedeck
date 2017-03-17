@@ -1,0 +1,596 @@
+/* line 11, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-relative {
+  position: relative; }
+
+/* line 15, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-absolute {
+  position: absolute; }
+
+/* line 19, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-left {
+  float: left; }
+
+/* line 23, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-right {
+  float: right; }
+
+/* line 20, ../../../../web-modules/main/webjars/lib/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.u-clearfix::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+/* line 31, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-inline {
+  display: inline; }
+
+/* line 35, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
+
+/* line 41, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+.u-hr-classy {
+  display: block;
+  vertical-align: middle; }
+  /* line 45, ../../../../../../app/assets/v3/stylesheets/modules/_utils.scss */
+  .u-hr-classy::before, .u-hr-classy::after {
+    content: '';
+    height: 1px;
+    background-color: #DBE6EC;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle; }
+
+/*
+ *
+ * Diff to HTML (diff2html.css)
+ * Author: rtfpessoa
+ *
+ */
+/* line 8, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-wrapper {
+  text-align: left; }
+
+/* line 12, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #DBE6EC;
+  background-color: #F4F9F9;
+  font-family: "Clear Sans", sans-serif;
+  font-size: 13px;
+  font-size: 1.3rem; }
+
+/* line 22, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+/* line 30, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-lines-added {
+  text-align: right;
+  border: 1px solid #b4e2b4;
+  border-radius: 5px 0 0 5px;
+  color: #399839;
+  padding: 2px;
+  vertical-align: middle; }
+
+/* line 39, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-lines-deleted {
+  text-align: left;
+  border: 1px solid #e9aeae;
+  border-radius: 0 5px 5px 0;
+  color: #c33;
+  padding: 2px;
+  vertical-align: middle;
+  margin-left: 1px; }
+
+/* line 49, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-name-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Clear Sans", sans-serif;
+  font-size: 13px;
+  font-size: 1.3rem; }
+
+/* line 61, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  line-height: 21px; }
+
+/* line 68, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 1em; }
+
+/* line 74, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-diff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Menlo", "Consolas", monospace;
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+/* line 81, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-diff-tbody > tr > td {
+  height: 20px;
+  line-height: 20px; }
+
+/* line 86, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-files-diff {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+/* line 92, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-diff {
+  overflow-x: scroll;
+  overflow-y: hidden; }
+
+/* line 97, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-side-diff {
+  display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 50%;
+  margin-right: -4px;
+  margin-bottom: -8px; }
+
+/* line 106, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-line {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin-left: 80px; }
+
+/* line 113, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-side-line {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin-left: 50px; }
+
+/* line 120, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-line del,
+.d2h-code-side-line del {
+  display: inline-block;
+  margin-top: -1px;
+  text-decoration: none;
+  background-color: #ffb6ba;
+  border-radius: 0.2em; }
+
+/* line 129, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-line ins,
+.d2h-code-side-line ins {
+  display: inline-block;
+  margin-top: -1px;
+  text-decoration: none;
+  background-color: #97f295;
+  border-radius: 0.2em;
+  text-align: left; }
+
+/* line 139, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-line-prefix {
+  display: inline;
+  background: none;
+  padding: 0;
+  word-wrap: normal;
+  white-space: pre; }
+
+/* line 147, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-line-ctn {
+  display: inline;
+  background: none;
+  padding: 0;
+  word-wrap: normal;
+  white-space: pre; }
+
+/* line 155, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.line-num1 {
+  box-sizing: border-box;
+  float: left;
+  width: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 3px; }
+
+/* line 164, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.line-num2 {
+  box-sizing: border-box;
+  float: right;
+  width: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 3px; }
+
+/* line 173, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-linenumber {
+  box-sizing: border-box;
+  position: absolute;
+  width: 86px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: right;
+  border: solid #eeeeee;
+  border-width: 0 1px 0 1px;
+  cursor: pointer; }
+
+/* line 187, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-code-side-linenumber {
+  box-sizing: border-box;
+  position: absolute;
+  width: 56px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: right;
+  border: solid #eeeeee;
+  border-width: 0 1px 0 1px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/*
+ * Changes Highlight
+ */
+/* line 207, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-del {
+  background-color: #fee8e9;
+  border-color: #e9aeae; }
+
+/* line 212, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-ins {
+  background-color: #dfd;
+  border-color: #b4e2b4; }
+
+/* line 217, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-info {
+  background-color: #f8fafd;
+  color: rgba(0, 0, 0, 0.3);
+  border-color: #d5e4f2; }
+
+/* line 223, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-diff .d2h-del.d2h-change {
+  background-color: #fdf2d0; }
+
+/* line 227, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-diff .d2h-ins.d2h-change {
+  background-color: #ded; }
+
+/*
+ * File Summary List
+ */
+/* line 235, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-wrapper {
+  margin-bottom: 10px; }
+
+/* line 239, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-wrapper a {
+  text-decoration: none;
+  color: #3572b0; }
+
+/* line 244, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-wrapper a:visited {
+  color: #3572b0; }
+
+/* line 248, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-header {
+  text-align: left; }
+
+/* line 252, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-title {
+  font-weight: bold; }
+
+/* line 256, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left; }
+
+/* line 263, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+/* line 270, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list > li {
+  border-bottom: #ddd solid 1px;
+  padding: 5px 10px;
+  margin: 0; }
+
+/* line 276, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-list > li:last-child {
+  border-bottom: none; }
+
+/* line 280, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-file-switch {
+  display: none;
+  font-size: 10px;
+  cursor: pointer; }
+
+/* line 286, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-icon-wrapper {
+  line-height: 31px; }
+
+/* line 290, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: currentColor; }
+
+/* line 296, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-deleted {
+  color: #F25F5F; }
+
+/* line 300, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-added {
+  color: #2CDB7F; }
+
+/* line 304, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-changed {
+  color: #F4E025; }
+
+/* line 308, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-moved {
+  color: #3572b0; }
+
+/* line 312, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-tag {
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 0 2px;
+  display: none; }
+
+/* line 319, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-deleted-tag {
+  border: #c33 1px solid; }
+
+/* line 323, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-added-tag {
+  border: #399839 1px solid; }
+
+/* line 327, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-changed-tag {
+  border: #d0b44c 1px solid; }
+
+/* line 331, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.d2h-moved-tag {
+  border: #3572b0 1px solid; }
+
+/*
+ * Selection util.
+ */
+/* line 339, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.selecting-left .d2h-code-line,
+.selecting-left .d2h-code-line *,
+.selecting-right td.d2h-code-linenumber,
+.selecting-right td.d2h-code-linenumber *,
+.selecting-left .d2h-code-side-line,
+.selecting-left .d2h-code-side-line *,
+.selecting-right td.d2h-code-side-linenumber,
+.selecting-right td.d2h-code-side-linenumber * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 354, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.selecting-left .d2h-code-line::-moz-selection,
+.selecting-left .d2h-code-line *::-moz-selection,
+.selecting-right td.d2h-code-linenumber::-moz-selection,
+.selecting-left .d2h-code-side-line::-moz-selection,
+.selecting-left .d2h-code-side-line *::-moz-selection,
+.selecting-right td.d2h-code-side-linenumber::-moz-selection,
+.selecting-right td.d2h-code-side-linenumber *::-moz-selection {
+  background: transparent; }
+
+/* line 364, ../../../../../../app/assets/v3/stylesheets/partials/_diff2html.scss */
+.selecting-left .d2h-code-line::selection,
+.selecting-left .d2h-code-line *::selection,
+.selecting-right td.d2h-code-linenumber::selection,
+.selecting-left .d2h-code-side-line::selection,
+.selecting-left .d2h-code-side-line *::selection,
+.selecting-right td.d2h-code-side-linenumber::selection,
+.selecting-right td.d2h-code-side-linenumber *::selection {
+  background: transparent; }
+
+/* line 1, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.file-title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #374249;
+  margin-bottom: 20px; }
+
+/* line 7, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issue-message {
+  font-weight: bold;
+  padding-left: 13px; }
+
+/* line 12, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issue-header {
+  cursor: pointer; }
+
+/* line 16, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issue-detail-container {
+  border-color: #DBE6EC; }
+
+/* line 20, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issue-item-title {
+  color: #4F5B60; }
+
+/* line 24, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issue-chevron-container {
+  padding-right: 13px;
+  text-align: right; }
+
+/* line 29, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.file-issue-container {
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+/* line 34, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.pattern-explanation-title {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+/* line 38, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+a.pattern-title {
+  color: #242C33; }
+  /* line 40, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+  a.pattern-title:hover {
+    color: #00A1CC;
+    text-decoration: none; }
+
+/* line 46, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.blame-person {
+  margin-bottom: 13px; }
+  /* line 49, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+  .blame-person .issue-date {
+    color: #768389;
+    margin-left: 13px; }
+  /* line 54, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+  .blame-person img {
+    margin-right: 13px; }
+
+/* line 60, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.grade-X {
+  background-color: #D1D1D1; }
+
+/* line 64, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.commit-author {
+  font-weight: bold; }
+
+/* line 68, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.commit-date {
+  color: #768389; }
+
+/* line 73, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.project-name span {
+  font-style: normal; }
+
+/* line 78, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.project-grade {
+  padding-right: 15px;
+  align-self: center; }
+
+/* line 85, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.jsFileContainer .col-md-0 {
+  width: 65px;
+  text-align: center; }
+/* line 90, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.jsFileContainer .jsFileLine {
+  height: 50px; }
+  /* line 93, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+  .jsFileContainer .jsFileLine td {
+    padding: 0 8px; }
+  /* line 97, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+  .jsFileContainer .jsFileLine .issues--box {
+    margin-left: -14px; }
+
+/* line 105, ../../../../../../app/assets/v3/stylesheets/layout/_project-issues.scss */
+.issues--box li:last-child {
+  margin-left: 6px; }
+
+/* line 12, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.file-title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #374249;
+  margin-bottom: 20px; }
+
+/* line 18, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.issue-message {
+  font-weight: bold;
+  padding-left: 13px; }
+
+/* line 23, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.issue-header {
+  cursor: pointer;
+  transition: background-color 0.5s ease-out; }
+  /* line 27, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+  .issue-header:hover {
+    background-color: #F4F9F9; }
+
+/* line 32, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.issue-detail-container {
+  border-color: #DBE6EC; }
+
+/* line 36, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.issue-item-title {
+  color: #4F5B60; }
+
+/* line 40, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.issue-chevron-container {
+  padding-right: 13px;
+  text-align: right; }
+
+/* line 45, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.file-issue-container {
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+/* line 50, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.pattern-explanation-title {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+/* line 54, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+a.pattern-title {
+  color: #242C33; }
+  /* line 57, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+  a.pattern-title:hover {
+    color: #00A1CC;
+    text-decoration: none; }
+
+/* line 63, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.blame-person {
+  margin-bottom: 13px; }
+  /* line 66, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+  .blame-person .issue-date {
+    color: #768389;
+    margin-left: 13px; }
+  /* line 71, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+  .blame-person img {
+    margin-right: 13px; }
+
+/* line 77, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.flex--container span[class^='grade-'] {
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  line-height: 34px; }
+
+/* line 87, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+.flex--container__child p {
+  max-width: 800px; }
+  /* line 90, ../../../../../../app/assets/v3/stylesheets/project-issues.scss */
+  .flex--container__child p strong {
+    max-width: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block; }
+
+/*# sourceMappingURL=project-issues.css.map */
