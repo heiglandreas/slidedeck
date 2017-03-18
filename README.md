@@ -22,4 +22,4 @@ If you find issues or have comments or questions please use the [issue-tracker](
  * [Directory Authentication with LDAP](http://rawgit.com/heiglandreas/slidedeck/master/Directory_Authentication_with_LDAP/20161019 - zendcon/index_online.html) - An introduction to LDAP-Authentication: ZendCon 2016 (20.10.2016) - english
  * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20161110-phpugka/index_online.html) - An introduction to timezones and how to handle them. Easily: PHP-Usergroups Karlsruhe (10. 11. 2016) - english
  * [Gamify your growth as a developer?](http://rawgit.com/heiglandreas/slidedeck/master/GamifyYourGrowthAsDeveloper/20170316-phpugffm/index_online.html) - Get better: PHP-Usergroup Frankfurt (16. 03. 2017) - english
- 
+ * [PostgreSQL for MySQL-Users](http://rawgit.com/heiglandreas/slidedeck/master/postgresqlForMysqlUsers/20170427-phpugmrn/index_online.html) - Introduction to the other OpenSource Elephant: PHP-Usergroups Mannheim (27. 04. 2017) - english
