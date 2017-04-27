@@ -1,11 +1,11 @@
-# Creating a Database
+## Creating a Database
 
 
 
-## Databases
+### Databases
 
-* MySQL - Connect to the MySQL-Server, then `use`
-* PostgreSQL - Connect to a database
+* <!-- .element: class="fragment" data-fragment-index="1" -->MySQL - Connect to the MySQL-Server, then `use`
+* <!-- .element: class="fragment" data-fragment-index="2" -->PostgreSQL - Connect to a database
 
 
 
@@ -13,8 +13,8 @@
 
 
 
-## Databases
-### MySQL
+### Databases
+#### MySQL
 
 ```mysql
 SHOW DATABASES;
@@ -22,8 +22,8 @@ SHOW DATABASES;
 
 
 
-## Databases
-### PostgreSQL
+### Databases
+#### PostgreSQL
 
 ```postgresql
 \l
@@ -40,16 +40,16 @@ SHOW DATABASES;
 
 
 
-## Database
+### Database
 
-* **postgres** is created on installation
-* **template1** is the default template for all other databases to come.
-* **template0** is also a template and initially equal to template1
-* You should **not** alter template0!
+* <!-- .element: class="fragment" data-fragment-index="1" -->**postgres** is created on installation
+* <!-- .element: class="fragment" data-fragment-index="2" -->**template1** is the default template for all other databases to come.
+* <!-- .element: class="fragment" data-fragment-index="3" -->**template0** is also a template and initially equal to template1
+* <!-- .element: class="fragment" data-fragment-index="4" -->You should **not** alter template0!
 
 
 
-## Create Database
+### Create Database
 
 ```sql
 postgres=# CREATE DATABASE my_new_db WITH 
@@ -71,13 +71,7 @@ postgres=# \l
 
 
 
-## Noticed something?
-
-> Postgres comes with **one** backend. No need to specify InnoDB, MyISAM or whatnot!!
-
-
-
-## Change the default template to UTF8
+### Change the default template to UTF8
 
 ```sql
 update pg_database set encoding = pg_char_to_encoding('UTF8') where datname = 'template1';
@@ -87,18 +81,18 @@ update pg_database set datctype = 'en_US.UTF8' where datname = 'template1';
 
 
 
-## Remove Database
-
-* Can only be done by a superuser or the owner
-* You can't be connected to the database in question…
+### Remove Database
 
 ```sql
 postgres=# DROP DATABASE my_new_db;
 DROP DATABASE
 ```
 
+* Can only be done by a superuser or the owner<!-- .element: class="fragment" data-fragment-index="1" -->
+* You can't be connected to the database in question…<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
-## Further reading
+
+### Further reading
 
 https://www.postgresql.org/docs/9.6/static/managing-databases.html

@@ -1,8 +1,8 @@
-# Login
+## Login
 
 
 
-## MySQL
+### MySQL
 
 ```bash
 $ mysql -u root
@@ -23,7 +23,7 @@ mysql>
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ postgresql -u root
@@ -33,7 +33,7 @@ $
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ psql -u root
@@ -44,7 +44,7 @@ $
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ psql --help
@@ -114,7 +114,7 @@ $
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ psql -U root
@@ -123,16 +123,16 @@ psql: FATAL:  role "root" does not exist
 
 
 
-## PostgreSQL
+### PostgreSQL
 
-* Role-based Access-Permissions
-* Role can be a user or a group.
-* Roles can be member of other roles
-* Database-Objects are owned by roles
+* <!-- .element: class="fragment" data-fragment-index="1" -->Role-based Access-Permissions
+* <!-- .element: class="fragment" data-fragment-index="2" -->Role can be a user or a group.
+* <!-- .element: class="fragment" data-fragment-index="3" -->Roles can be member of other roles
+* <!-- .element: class="fragment" data-fragment-index="4" -->Database-Objects are owned by roles
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ psql -U postgres
@@ -141,19 +141,19 @@ psql: FATAL:  Peer authentication failed for user "postgres"
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ![WTF](../base/img/you-serious-wtf-meme-baby-face.jpg)
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 * Roles ≠ Systemusers
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```bash
 $ sudo -u postgres psql
@@ -165,13 +165,13 @@ postgres=#
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ![Kermit](../base/img/kermit.gif)
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```php
 $ php -a
@@ -189,7 +189,7 @@ Stack trace:
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```apacheconfig
 #------------------------------------------------------------------------------
@@ -211,7 +211,7 @@ Note: You'll need to change localhost to * to listen on TCP!
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```apacheconfig
 # Database administrative login by Unix domain socket
@@ -237,7 +237,7 @@ Note: Either add the user running PHP here or change the method to md5 to allows
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ```php
 $ php -a
@@ -254,7 +254,7 @@ Stack trace:
 
 
 
-## Create Role
+### Create Role
 
 ```bash
 $ sudo -u postgres psql
@@ -268,7 +268,7 @@ postgres=#
 
 
 
-## Create Role
+### Create Role
 
 ```bash
 $ php -a
@@ -280,14 +280,14 @@ php >
 
 
 
-## PostgreSQL
+### PostgreSQL
 
 ![Kermit](../base/img/kermit.gif)
 
 
 
 
-## Drop Role
+### Drop Role
 
 ```bash
 $ sudo -u postgres psql
@@ -301,7 +301,7 @@ postgres=#
 
 
 
-## See roles
+### See roles
 
 ```sql
 SHOW GRANTS;
@@ -309,7 +309,7 @@ SHOW GRANTS;
 
 
 
-## See roles
+### See roles
 
 ```bash
 $ sudo -u postgres psql
@@ -329,7 +329,7 @@ Note: PostgreSQL has **a lot** of such metacommands
 
 
 
-## Metacommands
+### Metacommands
 
 ```bash
 $ sudo -u postgres psql
@@ -341,6 +341,6 @@ postgres=# \?
 
 
 
-## Further reading:
+### Further reading:
 
 https://www.postgresql.org/docs/9.6/static/user-manag.html
