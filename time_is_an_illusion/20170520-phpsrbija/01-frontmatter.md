@@ -1,7 +1,9 @@
 # time is an illusion
 <span class="credit">Albert Einstein</span>
-## lunchtime doubly so<!-- .element: class="fragment" -->
-<span class="credit">Douglas Adams</span><!-- .element: class="fragment" -->
+## lunchtime doubly so<!-- .element: class="fragment" data-fragment-index="1"-->
+<span class="credit fragment" data-fragment-index="1">Douglas Adams</span>
+
+
 
 
 

@@ -1,8 +1,8 @@
 ## How to store DateTimes
 
-* Use two fields<!-- .element: class="fragment" -->
-* one Datetime with local OR UTC time<!-- .element: class="fragment" -->
-* one string with the associated timezone (not offset!)<!-- .element: class="fragment" -->
+* <!-- .element: class="fragment" -->Use two fields
+* <!-- .element: class="fragment" -->one Datetime with local **or** UTC time
+* <!-- .element: class="fragment" -->one string with the associated timezone (not offset!)
 
 
 
@@ -65,6 +65,6 @@ WHERE
 -- Select all entries where the UTC-time is later than 14:00
 SELECT * FROM TABLE
 WHERE
-    extract(HOUR FROM zeit AT TIME ZONE zone AT TIME ZONE 'UTC')
+    extract(HOUR FROM time AT TIME ZONE zone AT TIME ZONE 'UTC')
     >= 14;
 ```

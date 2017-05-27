@@ -32,17 +32,17 @@ Array
 
 
 ```bash
-$ curl http://api.timezonedb.com/?lat=49.014&lng=8.4043&format=json&key=xxxx
+$ curl http://api.timezonedb.com/?lat=44.83333&lng=20.5&format=json&key=xxxx | jq
 
 {
-    "abbreviation": "CET",
-    "countryCode": "DE",
-    "dst": "0",
+    "abbreviation": "CEST",
+    "countryCode": "RS",
+    "dst": "1",
     "gmtOffset": "3600",
     "message": "",
     "status": "OK",
     "timestamp": 1478764894,
-    "zoneName": "Europe/Berlin"
+    "zoneName": "Europe/Belgrade"
 }
 ```
 
@@ -51,7 +51,7 @@ $ curl http://api.timezonedb.com/?lat=49.014&lng=8.4043&format=json&key=xxxx
 ## How to get timezones for abbreviation?
 
 ```php
-DateTimeZone::listAbbreviations()['cet'];
+DateTimeZone::listAbbreviations()['cest'];
 /*
 Array (
     [0] => Array
@@ -63,7 +63,7 @@ Array (
     
     [...]
 
-    [52] => Array
+    [51] => Array
         (
             [dst] =>
             [offset] => 3600
@@ -78,7 +78,7 @@ Array (
 
 ## Don't
 
-* try to get a timezone from an offset<!-- .element: class="fragment" -->
+* try to get a timezone from an offset or an abbreviation<!-- .element: class="fragment" -->
 * do funny timestamp arithmetics within the database<!-- .element: class="fragment" -->
 * store offset in the DB. You'll loose information<!-- .element: class="fragment" -->
 * rely on datetime-functions of the database. They might not be existent!<!-- .element: class="fragment" -->
