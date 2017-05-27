@@ -5,12 +5,12 @@ Note: There are three different ways to establish a timezone-object.
 
 
 ```php
-print_r(new DateTimezone('-07:00'));
+print_r(new DateTimezone('+02:00'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 1,
-    [timezone]      => "-07:00",
+    [timezone]      => "+02:00",
 )
 */
 ```
@@ -18,12 +18,12 @@ class DateTimeZone Object
 
 
 ```php
-print_r(new DateTimezone('PDT'));
+print_r(new DateTimezone('CEST'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 2,
-    [timezone]      => "PDT",
+    [timezone]      => "CEST",
 )
 
 */
@@ -32,12 +32,12 @@ class DateTimeZone Object
 
 
 ```php
-print_r(new DateTimezone('America/Los_Angeles'));
+print_r(new DateTimezone('Europe/Belgrade'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 3,
-    [timezone]      => "America/Los_Angeles",
+    [timezone]      => "Europe/Belgrade",
 )
 */
 ```
@@ -48,22 +48,22 @@ Note: But what are the differences?
 
 
 ```php
-print_r((new DateTimezone('America/Los_Angeles'))->getLocation());
+print_r((new DateTimezone('Europe/Belgrade'))->getLocation());
 /* Array
    (
-    [country_code] => US
-    [latitude] => 34.05222
-    [longitude] => -118.24278
-    [comments] => Pacific
+       [country_code] => RS
+       [latitude] => 44.83333
+       [longitude] => 20.5
+       [comments] =>
    )
 */
 ```
-Note: Middle of LA!
+Note: Middle of Belgrade!
 
 
 
 ```php
-print_r((new DateTimezone('PDT'))->getLocation());
+print_r((new DateTimezone('CEST'))->getLocation());
 /*
 */
 ```
@@ -71,7 +71,7 @@ print_r((new DateTimezone('PDT'))->getLocation());
 
 
 ```php
-print_r((new DateTimezone('-07:00'))->getLocation());
+print_r((new DateTimezone('+02:00'))->getLocation());
 /*
 */
 ```
@@ -81,6 +81,11 @@ print_r((new DateTimezone('-07:00'))->getLocation());
 ## Timezone informations change
 
 ### Stay current!<!-- .element: class="fragment" -->
+
+```bash
+$ php -i | grep -i olson
+"Olson" Timezone Database Version => 2017.2
+```
 
 https://pecl.php.net/package/timezonedb<!-- .element: class="fragment" -->
 https://www.iana.org/time-zones<!-- .element: class="fragment" -->

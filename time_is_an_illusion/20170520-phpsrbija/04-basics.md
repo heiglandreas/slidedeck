@@ -7,7 +7,7 @@
 
 
 ![Current Sun/Night distribution](img/sunmap.jpg)
-<span class="credit">[Day and Night world-map](http://www.timeanddate.com/worldclock/sunearth.html?day=10&month=11&year=2016&hour=19&min=30&sec=0&n=127&ntxt=Karlsruhe&earth=0)</span>
+<span class="credit">[Day and Night world-map](https://www.timeanddate.com/worldclock/sunearth.html?day=27&month=5&year=2017&hour=17&min=00&sec=0&n=35&ntxt=Belgrade&earth=0)</span>
 
 
 
@@ -20,7 +20,7 @@ Note: Offsets are written with + or - depending whether they are right or left o
 
 
 
-> A timezone is that part of the earthsurface that by governmental definition has the same
+> A timezone is that part of the earthsurface that **by governmental definition** has the same
 date and time
 
 Note: Most timezones are now offset from UTC by full hours, though there are exceptions like nepal (4.25) or venezuela (-4.5)
@@ -65,12 +65,15 @@ Note: Started to become base of Timezone offsets from 1972
 
 ## Caveat
 
-* Timezone - Sum of geographical region that shares the same coordinated time.
+* Timezone - geographical region that shares the same coordinated time
+* Timezone-Abbreviation - sum of geographical region that shares the same coordinated time
 * Zonetime - The timeoffset against UTC (or GMT) of a geographical region
 
 Note: Timezone-Name != Timezone Abbreviation
 
-## To make it more complex
+
+
+## To make it complex
 
 
 
@@ -86,7 +89,11 @@ Note: Crimean anexion in 2014, During WW2 in Germany, Political reasons (Venezue
 
 
 
-100 Years of<!-- .element: class="fragment" -->
+## To make it even more complex
+
+
+
+101 Years of<!-- .element: class="fragment" -->
 ## Summertime
 ## Daylight Savings Time<!-- .element: class="fragment" -->
 
@@ -98,37 +105,44 @@ but not the same in europe and america... 30 April 1916 Deutsches Reich
 
 
 ```php
-new DateTimeZone('Europe/Berlin')->getTransitions();
+(new DateTimeZone('Europe/Belgrade'))->getTransitions();
 /*
-[21] => Array (
-        [ts] => -717631200
-        [time] => 1947-04-06T02:00:00+0000
-        [offset] => 7200
-        [isdst] => 1
-        [abbr] => CEST
-    )
-[22] => Array (
-        [ts] => -714610800
-        [time] => 1947-05-11T01:00:00+0000
-        [offset] => 10800
-        [isdst] => 1
-        [abbr] => CEMT
-    )
-[23] => Array (
-        [ts] => -710380800
-        [time] => 1947-06-29T00:00:00+0000
-        [offset] => 7200
-        [isdst] => 1
-        [abbr] => CEST
-    )
-[24] => Array (
-        [ts] => -701910000
-        [time] => 1947-10-05T01:00:00+0000
-        [offset] => 3600
-        [isdst] =>
-        [abbr] => CET
-    )
+    [80] => Array
+        (
+            [ts] => 1490490000
+            [time] => 2017-03-26T01:00:00+0000
+            [offset] => 7200
+            [isdst] => 1
+            [abbr] => CEST
+        )
 
+    [81] => Array
+        (
+            [ts] => 1509238800
+            [time] => 2017-10-29T01:00:00+0000
+            [offset] => 3600
+            [isdst] =>
+            [abbr] => CET
+        )
+
+    [82] => Array
+        (
+            [ts] => 1521939600
+            [time] => 2018-03-25T01:00:00+0000
+            [offset] => 7200
+            [isdst] => 1
+            [abbr] => CEST
+        )
+
+    [83] => Array
+        (
+            [ts] => 1540688400
+            [time] => 2018-10-28T01:00:00+0000
+            [offset] => 3600
+            [isdst] =>
+            [abbr] => CET
+        )
+)
 */
 ```
 
@@ -136,10 +150,11 @@ new DateTimeZone('Europe/Berlin')->getTransitions();
 
 ## Daylight Savings Time
 
-* is not simply one hour offset
-* starts at different times throughout the world
-* is at different seasons on the hemispheres
-* Be prepared for days with 23 or 25 hours!
+* is not simply one hour offset<!-- .element: class="fragment" -->
+* starts at different times throughout the world<!-- .element: class="fragment" -->
+* is at different seasons on the hemispheres<!-- .element: class="fragment" -->
+* Be prepared for days with 23 or 25 hours!<!-- .element: class="fragment" -->
+* can occur more than once a year<!-- .element: class="fragment" -->
 
 
 
@@ -147,10 +162,10 @@ new DateTimeZone('Europe/Berlin')->getTransitions();
 
 * Timezones are political definitions<!-- .element: class="fragment" -->
 * Timezones change<!-- .element: class="fragment" -->
-* Timezones cover a stripe from northpole to southpole<!-- .element: class="fragment" -->
+* Timezones-Abbreviations cover a stripe from northpole to southpole<!-- .element: class="fragment" -->
 * Zonetimes are defined by the offset from UTC<!-- .element: class="fragment" -->
-* Summertime may add one hour (or more) to the Zonetime<!-- .element: class="fragment" -->
-* Summertime does not change the timezone but the zonetime<!-- .element: class="fragment" -->
+* DST may add or remove time to the Zonetime<!-- .element: class="fragment" -->
+* DST does not change the timezone but the zonetime<!-- .element: class="fragment" -->
 
 
 

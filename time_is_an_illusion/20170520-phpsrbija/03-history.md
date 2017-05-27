@@ -17,4 +17,4 @@ Later those where adopted by the governments
 ![Timezone Memorial](img/timezoneMemorial.jpg)
 <span class="credit">By JoeSmack - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4430864</span>
 
-Note: Why is that necessary?
+Note: Chicago 11.10.1883 - Adoption of Timezones - First day with timezones: 18.11.1883: Why is that necessary? 

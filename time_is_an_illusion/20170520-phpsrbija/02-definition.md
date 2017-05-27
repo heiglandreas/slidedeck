@@ -24,7 +24,7 @@ slightly changed. There were morning, noon, evening and night.
 <span class="credit">@ Kevin Lau | https://flic.kr/p/u5pfZ | CC BY-NC-ND 2.0</span>
 
 Note: And all timing was related to the sun. "Break of dawn", "sunset", even "noon".
-Days started the moment the sun wasn't visible anymore. That's still the case f.e. on Mount Athos
+Days started the moment the sun wasn't visible anymore. That's still the case f.e. on Mount Athos or Jews
 
 
 
