@@ -3,7 +3,7 @@ slidedeck
 
 Different slides I did on different occasions.
 
-Feel free to view. 
+Feel free to view.
 
 If you find issues or have comments or questions please use the [issue-tracker](https://github.com/heiglandreas/slidedeck/issues) to get into contact.
 
@@ -28,3 +28,4 @@ If you find issues or have comments or questions please use the [issue-tracker](
  * [PostgreSQL for MySQL-Users](http://rawgit.com/heiglandreas/slidedeck/master/postgresqlForMysqlUsers/20170427-phpugmrn/index_online.html) - Introduction to the other OpenSource Elephant: PHP-Usergroups Mannheim (27. 04. 2017) - english
  * [PostgreSQL for MySQL-Users](http://rawgit.com/heiglandreas/slidedeck/master/postgresqlForMysqlUsers/20170520-PHPKonf/index_online.html) - Introduction to the other OpenSource Elephant: PHPKonf Istanbul (20. 05. 2017) - english
  * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20170520-phpsrbija/index_online.html) - An introduction to timezones and how to handle them. Easily: PHPSrbija 2017 (27. 05. 2017) - english
+ * [How to handle 💩](http://rawgit.com/heiglandreas/slidedeck/master/HowToHandlePILE_OF_POO/20170609-phpsouthcoast/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL: PHP SouthCoast 2017 (10. 06. 2017) - english
