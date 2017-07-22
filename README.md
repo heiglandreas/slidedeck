@@ -1,9 +1,6 @@
-slidedeck
-=========
+## Different slides I did on different occasions.
 
-Different slides I did on different occasions.
-
-Feel free to view.
+> Feel free to view.
 
 If you find issues or have comments or questions please use the [issue-tracker](https://github.com/heiglandreas/slidedeck/issues) to get into contact.
 
