@@ -7,7 +7,7 @@
 
 ## Slides for talks I held so far
 
- * [Release with an Autopen](http://rawgit.com/heiglandreas/slidedeck/master/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: PHPHants (12. 07. 2017) - english
+ * [Release with an Autopen](https://heiglandreas.github.io/slidedeck/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: PHPHants (12. 07. 2017) - english
  * [How to handle 💩](http://rawgit.com/heiglandreas/slidedeck/master/HowToHandlePILE_OF_POO/20170609-phpsouthcoast/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL: PHP SouthCoast 2017 (10. 06. 2017) - english
  * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20170520-phpsrbija/index_online.html) - An introduction to timezones and how to handle them. Easily: PHPSrbija 2017 (27. 05. 2017) - english
  * [PostgreSQL for MySQL-Users](http://rawgit.com/heiglandreas/slidedeck/master/postgresqlForMysqlUsers/20170520-PHPKonf/index_online.html) - Introduction to the other OpenSource Elephant: PHPKonf Istanbul (20. 05. 2017) - english
