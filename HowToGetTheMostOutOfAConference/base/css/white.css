@@ -1,0 +1,14 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    text-transform: none;
+    font-weight: 500;
+}
+
+.reveal section img {
+    border-width: 0;
+    background-color: transparent;
+}
