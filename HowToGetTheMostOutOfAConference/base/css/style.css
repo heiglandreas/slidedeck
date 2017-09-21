@@ -1,3 +1,16 @@
+* {
+  /*text-shadow: 0px 0px 0.15em white!important;*/
+  /*color: lightgray; */
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  background-color: rgba(255,255,255,0.3);
+}
+
+del {
+  opacity: 0.5;
+}
+
 div.multicolumn{
     -moz-column-count: 2;
     -moz-column-gap: 50%;
@@ -26,31 +39,27 @@ span.credit a {
 }
 
 .reveal .footer-left {
-    color          : #111;
-                   /*     font-family    : "League Gothic", Impact, sans-serif;*/
     letter-spacing : 0.02em;
     line-height    : 0.9em;
     margin         : 0 0 20px;
-    text-shadow    : 0 0 6px rgba(255, 255, 255, 0.2);
     bottom : 0px;
     text-align:left;
     padding-left: 5px;
     position:absolute;
     left: 0;
+    color: white;
 }
 
 .reveal .footer-right {
-    color          : #111;
-                   /*     font-family    : "League Gothic", Impact, sans-serif;*/
     letter-spacing : 0.02em;
     line-height    : 0.9em;
     margin         : 0 0 20px;
-    text-shadow    : 0 0 6px rgba(255, 255, 255, 0.2);
     bottom : 0px;
     text-align:right;
     padding-right: 5px;
     position:absolute;
-    right: 0
+    right: 0;
+    color: white;
 }
 .light {
     color: gray;

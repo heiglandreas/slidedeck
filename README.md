@@ -4,6 +4,7 @@
 * **How to handle 🎉** - An introduction to Unicode and how to use it in PHP and MySQL - PHP South Africa (Capetown) - 28.09.2017 - english
 * **Gamify your growth as a developer?** - Get better - PHP South Africa (Capetown) - 29.09.2017 - english
 * **How to handle PILE_OF_POO** - An introduction to Unicode and how to use it in PHP and MySQL - International PHP Conference (Munich) - 23.-27.10.2017 - english 
+* **How to get the most out of a tech conference!** - Keynote at PHP Central Europe (Near Wars) - 03.11.2017 - english
 
 ## Slides for talks I held so far
 
