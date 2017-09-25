@@ -3,11 +3,12 @@
 * **How to get the most out of a tech conference!** - Pre-Conference-Social for PHP South Africa (Capetown) - 26.09.2017 - english
 * **How to handle 🎉** - An introduction to Unicode and how to use it in PHP and MySQL - PHP South Africa (Capetown) - 28.09.2017 - english
 * **Gamify your growth as a developer?** - Get better - PHP South Africa (Capetown) - 29.09.2017 - english
-* **How to handle PILE_OF_POO** - An introduction to Unicode and how to use it in PHP and MySQL - International PHP Conference (Munich) - 23.-27.10.2017 - english 
+* **How to handle PILE_OF_POO** - An introduction to Unicode and how to use it in PHP and MySQL - International PHP Conference (Munich) - 23.-27.10.2017 - english
 * **How to get the most out of a tech conference!** - Keynote at PHP Central Europe (Near Wars) - 03.11.2017 - english
 
 ## Slides for talks I held so far
 
+ * [Testing the real McCoy](https://heiglandreas.github.io/slidedeck/TestingTheRealMcCoy/20170921-phpugffm/index_online.html#/) - A short primer to writing tests for PHP: PHP-Usergroup Frankfurt (21.9.2017) - english
  * [Release with an Autopen](https://heiglandreas.github.io/slidedeck/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: PHPHants (12. 07. 2017) - english
  * [How to handle 💩](http://rawgit.com/heiglandreas/slidedeck/master/HowToHandlePILE_OF_POO/20170609-phpsouthcoast/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL: PHP SouthCoast 2017 (10. 06. 2017) - english
  * [time is an illusion](http://rawgit.com/heiglandreas/slidedeck/master/time_is_an_illusion/20170520-phpsrbija/index_online.html) - An introduction to timezones and how to handle them. Easily: PHPSrbija 2017 (27. 05. 2017) - english - [🎞](https://www.youtube.com/watch?v=8mbF7n3wzV4)
@@ -36,4 +37,4 @@ If you find issues or have comments or questions please use the [issue-tracker](
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) license
 
-[![Creative Commons](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) 
+[![Creative Commons](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
