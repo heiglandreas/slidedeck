@@ -1,13 +1,13 @@
 ## Upcoming talks
 
-* **How to get the most out of a tech conference!** - Pre-Conference-Social for PHP South Africa (Capetown) - 26.09.2017 - english
-* **How to handle 🎉** - An introduction to Unicode and how to use it in PHP and MySQL - PHP South Africa (Capetown) - 28.09.2017 - english
-* **Gamify your growth as a developer?** - Get better - PHP South Africa (Capetown) - 29.09.2017 - english
 * **How to handle PILE_OF_POO** - An introduction to Unicode and how to use it in PHP and MySQL - International PHP Conference (Munich) - 23.-27.10.2017 - english
 * **How to get the most out of a tech conference!** - Keynote at PHP Central Europe (Near Wars) - 03.11.2017 - english
 
 ## Slides for talks I held so far
 
+* [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20170929-phpsouthafrica/index_online.html) - Get better - PHP South Africa (Capetown) - 29.09.2017 - english
+* [How to handle 🎉](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20170928-phpsouthafrica/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL - PHP South Africa (Capetown) - 28.09.2017 - english
+ * [How to get the most out of a tech conference!](https://heiglandreas.github.io/slidedeck/HowToGetTheMostOutOfAConference/20170926-phpsouthafrica/index_online.html) - Pre-Conference-Social for PHP South Africa (Capetown) - 26.09.2017 - english
  * [Testing the real McCoy](https://heiglandreas.github.io/slidedeck/TestingTheRealMcCoy/20170921-phpugffm/index_online.html#/) - A short primer to writing tests for PHP: PHP-Usergroup Frankfurt (21.9.2017) - english
  * [Release with an Autopen](https://heiglandreas.github.io/slidedeck/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: PHPHants (12. 07. 2017) - english
  * [How to handle 💩](http://rawgit.com/heiglandreas/slidedeck/master/HowToHandlePILE_OF_POO/20170609-phpsouthcoast/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL: PHP SouthCoast 2017 (10. 06. 2017) - english
