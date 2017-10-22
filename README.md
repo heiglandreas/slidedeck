@@ -1,6 +1,5 @@
 ## Upcoming talks
 
-* **How to handle PILE_OF_POO** - An introduction to Unicode and how to use it in PHP and MySQL - International PHP Conference (Munich) - 23.-27.10.2017 - english
 * **How to get the most out of a tech conference!** - Keynote at PHP Central Europe (Near Wars) - 03.11.2017 - english
 
 ## Slides for talks I held so far
