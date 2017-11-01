@@ -1,9 +1,11 @@
 ## Upcoming talks
 
-* **How to get the most out of a tech conference!** - Keynote at PHP Central Europe (Near Wars) - 03.11.2017 - english
+* **How to get the most out of a tech conference!** - Keynote at PHP Central Europe - 03.11.2017 - english
 
 ## Slides for talks I held so far
 
+* [Release with an Autopen](https://heiglandreas.github.io/slidedeck/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: unKonf (Mannheim) (28.10.2017) - english
+* [How to handle 💩](http://rawgit.com/heiglandreas/slidedeck/master/HowToHandlePILE_OF_POO/20170609-phpsouthcoast/index_online.html) - An brief introduction to Unicode and how to use it in PHP and MySQL: unKonf (Mannheim) (28.10.2017) - english
 * [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20170929-phpsouthafrica/index_online.html) - Get better - PHP South Africa (Capetown) - 29.09.2017 - english
 * [How to handle 🎉](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20170928-phpsouthafrica/index_online.html) - An introduction to Unicode and how to use it in PHP and MySQL - PHP South Africa (Capetown) - 28.09.2017 - english
  * [How to get the most out of a tech conference!](https://heiglandreas.github.io/slidedeck/HowToGetTheMostOutOfAConference/20170926-phpsouthafrica/index_online.html) - Pre-Conference-Social for PHP South Africa (Capetown) - 26.09.2017 - english
