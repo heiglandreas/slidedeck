@@ -1,6 +1,7 @@
 ## Upcoming talks and events
 
 * **Gamify your growth as a developer?** - Get better - Web-Entwicklung Meetup Köln 19.04.2018 - german/english
+* **"As a user, I can to download this as a PDF"** - PDF-creation 101 - [PHP Leuven - Web Innovation Group 10.05.2018](https://www.meetup.com/de-DE/PHP-Leuven-Web-Innovation-Group/events/sctxfnyxhbfb/) - english
 * **How to handle 💩** - An brief introduction to Unicode and how to use it in MySQL - Java Usergroup Darmstadt 17.05.2018 - german/english
 * **time is an illusion** - An introduction to timezones and how to handle them. Easily - Java Usergroup Darmstadt 17.05.2018 - german/english
 * **How to tame a 🦄** - An introduction to Unicode and how to use it in PHP and MySQL - Dutch PHPConference 8.6.2018 - english
