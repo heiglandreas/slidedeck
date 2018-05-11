@@ -7,7 +7,7 @@
 
 ## Slides for talks I held so far
 
-* ["As a user, I can to download this as a PDF"](https://heiglandreas.github.io/slidedeck//Development/Sites/slidedeck/AsUserICanDownloadThisAsPdf/20180510-phpleuven/index_online.html) - PDF-creation 101 - [PHP Leuven - Web Innovation Group 10.05.2018](https://www.meetup.com/de-DE/PHP-Leuven-Web-Innovation-Group/events/sctxfnyxhbfb/) - english
+* ["As a user, I can to download this as a PDF"](https://heiglandreas.github.io/slidedeck/AsUserICanDownloadThisAsPdf/20180510-phpleuven/index_online.html) - PDF-creation 101 - [PHP Leuven - Web Innovation Group 10.05.2018](https://www.meetup.com/de-DE/PHP-Leuven-Web-Innovation-Group/events/sctxfnyxhbfb/) - english
 * [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20180420-webmeetupcologne/index_online.html) - Get better - Web-Entwicklung Meetup Köln 19.04.2018 - german/english
 * [How to get the most out of a tech conference!](https://heiglandreas.github.io/slidedeck/HowToGetTheMostOutOfAConference/20171103-php_ce/index_online.html) - Keynote at PHP Central Europe (near Warsaw) (03.11.2017) - english - [🎞](https://www.youtube.com/watch?v=Wn2hj7P7U0o)
 * [Release with an Autopen](https://heiglandreas.github.io/slidedeck/ReleaseWithAnAutopen/20170712-phphants/index_online.html) - How to automaticaly sign build-artifacts: unKonf (Mannheim) (28.10.2017) - english
