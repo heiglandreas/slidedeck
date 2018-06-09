@@ -96,7 +96,7 @@ Note: Crimean anexion in 2014, During WW2 in Germany, Political reasons (Venezue
 
 102 Years of<!-- .element: class="fragment" -->
 ## Summertime
-## Daylight Savings Time<!-- .element: class="fragment" -->
+## Daylight Saving Time<!-- .element: class="fragment" -->
 
 Note: To save energie as because the human activity-cycle is offset to the daylight cycle
 Summertime was "invented". Offsets the time 1 hour plus against default time-coordinate.
@@ -131,7 +131,7 @@ but not the same in europe and america... 30 April 1916 Deutsches Reich
 
 
 
-## Daylight Savings Time
+## Daylight Saving Time
 
 * is not simply one hour offset<!-- .element: class="fragment" -->
 * starts at different times throughout the world<!-- .element: class="fragment" -->
