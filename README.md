@@ -1,10 +1,11 @@
 ## Upcoming talks and events
 
-* time is an illusion - An introduction to timezones and how to handle them. Easily - Dutch PHPConference 9.6.2018 - english
+* How to handle 💩 - A brief introduction to Unicode and how to use it in PHP and MySQL - [PHPDD](https://2018.phpdd.org) 22.09.2018 - english
 
 ## Slides for talks I held so far
 
-* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180608-dpc/index_online.html#/) - An introduction to Unicode and how to use it in PHP and MySQL - Dutch PHPConference 8.6.2018 - english
+* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20180609-dpc/index_online.html) - An introduction to timezones and how to handle them. Easily - Dutch PHPConference 9.6.2018 - english
+* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180608-dpc/index_online.html#/) - An introduction to Unicode and how to use it in PHP and MySQL - Dutch PHPConference 8.6.2018 - english - [🎞](https://youtu.be/vHjjsvXuejM)
 * [The First Contact](https://heiglandreas.github.io/slidedeck/FirstContact/20180524-phpugffm/index_online.html) - How to handle Contact-Forms - [PHP Usergroup Frankfurt](http://www.phpugffm.de/veranstaltungen-2/phpugffm-iii2018/) 24.5.2018 - english
 * [How to handle 💩](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180517-javaugda/index_online.html) - An brief introduction to Unicode and how to use it in MySQL - Java Usergroup Darmstadt 17.05.2018 - german/english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20180517-javaugda/index_online.html#/) - An introduction to timezones and how to handle them. Easily - Java Usergroup Darmstadt 17.05.2018 - german/english
