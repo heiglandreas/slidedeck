@@ -1,0 +1,94 @@
+[
+    "index.html",
+    {
+        "filename" : "01.0-frontmatter.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "02.0-share.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "03.0-test.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "03.1-test_differences.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "04.0-automate_tests.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "05.0-codecoverage.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "05.2-codecoverage_infection.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "05.2-codecoverage_diff.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "06.0-automated_codecoverage.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "07.0-metrics.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "08.0-code_Reviews.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "09.0-whereFromHere.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "09.1-codingstyle.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename": "09.2-connect.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    },{
+        "filename" : "10.0-backmatter.md",
+        "attr" : {
+            "data-separator" : "\n\n\n\n",
+            "data-vertical" : "\n\n\n"
+        }
+    }
+]
