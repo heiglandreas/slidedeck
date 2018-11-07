@@ -3,7 +3,7 @@
 * The first contact - How to handle contact forms - ConFoo (Montreal, Canada) - 2019 - english
 * How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQ - ConFoo (Montreal, Canada) - 2019 - english
 * time is an illusion - An introduction to timezones and how to handle them. Easily - GrowIT (Novi Sad, Serbia) - Dec. 2018 - english
-* [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20181108-phpruhr/index.html/) - Get better - [PHP.RUHR](https://2018.php.ruhr) (Dortmund) - 8.11.2018 - english
+* [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20181108-phpruhr/index.html) - Get better - [PHP.RUHR](https://2018.php.ruhr) (Dortmund) - 8.11.2018 - english
 
 ## Slides for talks I held so far
 
