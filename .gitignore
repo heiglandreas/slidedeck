@@ -1,1 +1,4 @@
 inc/lib
+.vscode
+tools/resources
+tools/slides
