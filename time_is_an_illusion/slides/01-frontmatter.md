@@ -7,7 +7,7 @@
 
 
 
-![Cals Morning greetings](../resources/CalsMorningGreeting.svg)
+![Cals Morning greetings](resources/CalsMorningGreeting.svg)
 
 
 
