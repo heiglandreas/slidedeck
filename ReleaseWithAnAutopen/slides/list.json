@@ -1,0 +1,44 @@
+[
+    {
+        "filename" : "01.0-frontmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "02.0-why.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "03.0-how.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "04.0-gpg.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "05.0-automate.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "10.0-backmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    }
+]
