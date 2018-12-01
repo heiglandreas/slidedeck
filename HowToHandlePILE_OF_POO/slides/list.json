@@ -1,0 +1,58 @@
+[
+    {
+        "filename" : "01.0-frontmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "02.0-definitions.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "03.0-history.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "04.0-unicode.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "05.0-php.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "06.0-mysql.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "07.0-recap.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "10.0-backmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    }
+]
