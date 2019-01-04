@@ -3,8 +3,8 @@
 * The first contact - How to handle contact forms - ConFoo (Montreal, Canada) - 2019 - english
 * How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQ - ConFoo (Montreal, Canada) - 2019 - english
 * SpeakerUnkonf (Darmstadt) 23.2.2019
-* (PHP-Usergroup Deventer - 21.02.2019 - english)
-* The first contact - How to handle contact forms - PHP @ FOSDEM (Brussels) - 02.02.2019 - english
+* The first contact - How to handle registration forms - PHP-Usergroup Deventer - 21.02.2019 - english
+* The first contact - How to handle registration forms - PHP @ FOSDEM (Brussels) - 02.02.2019 - english
 
 
 ## Slides for talks I held so far
