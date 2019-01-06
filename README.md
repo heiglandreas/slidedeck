@@ -1,10 +1,11 @@
 ## Upcoming talks and events
 
-* The first contact - How to handle contact forms - ConFoo (Montreal, Canada) - 2019 - english
-* How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQ - ConFoo (Montreal, Canada) - 2019 - english
-* SpeakerUnkonf (Darmstadt) 23.2.2019
-* The first contact - How to handle registration forms - PHP-Usergroup Deventer - 21.02.2019 - english
+* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190108-phpugrhh/index.html) - How to handle registration forms - PHP-Usergroup Rheinhessen (Mainz) - 08.01.2019 - english
 * The first contact - How to handle registration forms - PHP @ FOSDEM (Brussels) - 02.02.2019 - english
+* The first contact - How to handle registration forms - PHP-Usergroup Deventer - 21.02.2019 - english
+* SpeakerUnkonf (Darmstadt) 23.2.2019
+* The first contact - How to handle contact forms - ConFoo (Montreal) - 13.03.2019 - english
+* How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQ - ConFoo (Montreal) - 14.03.2019 - english
 
 
 ## Slides for talks I held so far
