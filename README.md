@@ -1,7 +1,6 @@
 ## Upcoming talks and events
 
-* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190108-phpugrhh/index.html) - How to handle registration forms - PHP-Usergroup Rheinhessen (Mainz) - 08.01.2019 - english
-* The first contact - How to handle registration forms - PHP @ FOSDEM (Brussels) - 02.02.2019 - english
+* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190202-fosdem/index.html) - How to handle registration forms - PHP @ FOSDEM (Brussels) - 02.02.2019 - english
 * The first contact - How to handle registration forms - PHP-Usergroup Deventer - 21.02.2019 - english
 * SpeakerUnkonf (Darmstadt) 23.2.2019
 * The first contact - How to handle contact forms - ConFoo (Montreal) - 13.03.2019 - english
@@ -9,7 +8,7 @@
 
 
 ## Slides for talks I held so far
-
+* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190108-phpugrhh/index.html) - How to handle registration forms - PHP-Usergroup Rheinhessen (Mainz) - 08.01.2019 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20181202-growit/index.html) - An introduction to timezones and how to handle them. Easily - GrowIT (Novi Sad, Serbia) - Dec. 2018 - english
 * [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20181108-phpruhr/index.html) - Get better - [PHP.RUHR](https://2018.php.ruhr) (Dortmund) - 8.11.2018 - english
 * [How to handle 💩](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20180922-phpdd/index_online.html#/) - A brief introduction to Unicode and how to use it in PHP and MySQL - [PHPDD](https://2018.phpdd.org) 22.09.2018 - english
