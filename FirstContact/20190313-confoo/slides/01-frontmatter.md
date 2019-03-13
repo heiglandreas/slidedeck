@@ -30,7 +30,7 @@ Note: GDPR is not the topic, but a lot has to do with it. Privacy by design
 > This is a rant
 
 * I'm not a UI/UX-person
-* I'm not a Layer
+* I'm not a Lawyer
 * I'm just a user
 * "Alumni of Highschool of Street Knowledge and University of Common Sense" 😉
 
