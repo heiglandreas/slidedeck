@@ -1,6 +1,7 @@
 ## Upcoming talks and events
 
 * The first contact - How to handle contact forms - PHPSrbija (Belgrade) - 25.05.2019 - english
+* How to tame a 🦄  - An introduction to Unicode and how to use it in PHP and MySQ - PHP-Usergroup Groninge - 06.06.2019 - english
 * The first contact - How to handle contact forms - DPC (Amsterdam) - 08.06.2019 - english
 
 
