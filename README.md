@@ -1,10 +1,14 @@
 ## Upcoming talks and events
 
-* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20190606-groningen/index.html)  - An introduction to Unicode and how to use it in PHP and MySQ - PHP-Usergroup Groninge - 06.06.2019 - english
-* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190608-dpc/index.html) - How to handle contact forms - DPC (Amsterdam) - 08.06.2019 - english
+I'll be at 
+* [PHPUnit Code Sprint]() - Manheim - 6.-7.09.2019 
+* [unKonf](https://unkonf.de) - Mannheim - 12.10.2019
+* [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
 
 
 ## Slides for talks I held so far
+* [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190608-dpc/index.html) - How to handle contact forms - DPC (Amsterdam) - 08.06.2019 - english - [🎞](https://youtu.be/3MKxDwOHmUc)
+* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20190606-groningen/index.html)  - An introduction to Unicode and how to use it in PHP and MySQ - PHP-Usergroup Groninge - 06.06.2019 - english
 * [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190526-phpsrbija/index.html) - How to handle contact forms - PHPSrbija (Belgrade) - 26.05.2019 - english
 * [How to tame a 🦄 ](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20190314-confoo/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - ConFoo (Montreal) - 14.03.2019 - english
 * [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190313-confoo/index.html) - How to handle contact forms - ConFoo (Montreal) - 13.03.2019 - english
