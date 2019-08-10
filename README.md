@@ -1,10 +1,11 @@
 ## Upcoming talks and events
 
 I'll be at 
+* [PHP Johannesburg](https://www.meetup.com/PHP-Johannesburg-Meetup-Group/) - Johannesburg, South Africa - 15.8.2019 - [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20190815-joburg/index_online.html) - Get better - english
 * [PHPUnit Code Sprint]() - Manheim - 6.-7.09.2019 
 * [unKonf](https://unkonf.de) - Mannheim - 12.10.2019
-* [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html)
-* [WebEngineeringAachen](https://www.meetup.com/de-DE/Web-Engineering-Aachen/) - Aachen - 13.11.2019
+* [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - english
+* [WebEngineeringAachen](https://www.meetup.com/Web-Engineering-Aachen/) - Aachen - 13.11.2019
 * [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
 
 
