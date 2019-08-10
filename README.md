@@ -3,6 +3,8 @@
 I'll be at 
 * [PHPUnit Code Sprint]() - Manheim - 6.-7.09.2019 
 * [unKonf](https://unkonf.de) - Mannheim - 12.10.2019
+* [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html)
+* [WebEngineeringAachen](https://www.meetup.com/de-DE/Web-Engineering-Aachen/) - Aachen - 13.11.2019
 * [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
 
 
