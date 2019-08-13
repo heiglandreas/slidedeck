@@ -3,5 +3,6 @@
   "autopen" : "../ReleaseWithAnAutopen",
   "unicode" : "../HowToHandlePILE_OF_POO",
   "firstcontact" : "../FirstContact",
-  "encryption" : "../AliceAndBob"
+  "encryption" : "../AliceAndBob",
+  "gamify" : "../GamifyYourGrowthAsDeveloper"
 }
