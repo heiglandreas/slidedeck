@@ -1,7 +1,6 @@
 ## Upcoming talks and events
 
 I'll be at 
-* [PHP Johannesburg](https://www.meetup.com/PHP-Johannesburg-Meetup-Group/) - Johannesburg, South Africa - 15.8.2019 - [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20190815-joburg/index.html) - Get better - english
 * [PHPUnit Code Sprint]() - Manheim - 6.-7.09.2019 
 * [unKonf](https://unkonf.de) - Mannheim - 12.10.2019
 * [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - english
@@ -10,6 +9,7 @@ I'll be at
 
 
 ## Slides for talks I held so far
+* [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20190815-joburg/index.html) - Get better - [PHP Johannesburg](https://www.meetup.com/PHP-Johannesburg-Meetup-Group/) (Johannesburg, South Africa) - 15.8.2019 - english
 * [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190608-dpc/index.html) - How to handle contact forms - DPC (Amsterdam) - 08.06.2019 - english - [🎞](https://youtu.be/3MKxDwOHmUc)
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20190606-groningen/index.html)  - An introduction to Unicode and how to use it in PHP and MySQ - PHP-Usergroup Groninge - 06.06.2019 - english
 * [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190526-phpsrbija/index.html) - How to handle contact forms - PHPSrbija (Belgrade) - 26.05.2019 - english
