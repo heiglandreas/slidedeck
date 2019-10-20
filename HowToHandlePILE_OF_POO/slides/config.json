@@ -1,8 +1,9 @@
 {
-    "event" : "PHP-Usergroup Groningen",
-    "eventdate" : "06.06.2019",
+    "event" : "IPC Fall 2019",
+    "eventdate" : "23.10.2019",
     "speaker" : "Andreas Heigl",
     "twitter" : "@heiglandreas",
     "_title" : "How to handle \uD83D\uDCA9",
-    "title" : "How to tame a \uD83E\uDD84"
+    "__title" : "How to tame a \uD83E\uDD84",
+    "title" : "How to tame a Unicorn"
 }
