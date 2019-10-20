@@ -1,8 +1,7 @@
 ## Upcoming talks and events
 
 I'll be at 
-* [PHPUnit Code Sprint]() - Manheim - 6.-7.09.2019 
-* [unKonf](https://unkonf.de) - Mannheim - 12.10.2019
+* [International PHP Conference](https://phpconference.com) - Munich - 21.-25.10.2019 - [How to tame a unicorn](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191023-ipc/index.html) - An introduction to Unicode and how to use it in PHP and MySQL - english
 * [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - english
 * [WebEngineeringAachen](https://www.meetup.com/Web-Engineering-Aachen/) - Aachen - 13.11.2019
 * [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
