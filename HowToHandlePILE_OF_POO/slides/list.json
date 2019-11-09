@@ -7,6 +7,13 @@
         }
     },
     {
+        "filename" : "joindin.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
         "filename" : "02.0-definitions.md",
         "attr" : {
             "data-separator" : "\\n\\n\\n\\n",
@@ -43,6 +50,13 @@
     },
     {
         "filename" : "07.0-recap.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "joindin.md",
         "attr" : {
             "data-separator" : "\\n\\n\\n\\n",
             "data-vertical" : "\\n\\n\\n"

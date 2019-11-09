@@ -377,3 +377,11 @@ span.credit a {
 
 .reveal img[src^="../resources/timezones201"] {
   max-height: 250px; }
+
+div.multicolumn {
+  -moz-column-count: 2;
+  -moz-column-gap: 1%;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1%;
+  column-count: 2;
+  column-gap: 1%; }
