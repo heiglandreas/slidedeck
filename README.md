@@ -1,13 +1,13 @@
 ## Upcoming talks and events
 
 I'll be at 
-* [International PHP Conference](https://phpconference.com) - Munich - 21.-25.10.2019 - [How to tame a unicorn](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191023-ipc/index.html) - An introduction to Unicode and how to use it in PHP and MySQL - english
-* [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 08.-10.11.2019 - [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191109-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - english
 * [WebEngineeringAachen](https://www.meetup.com/Web-Engineering-Aachen/) - Aachen - 13.11.2019
 * [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
 
 
 ## Slides for talks I held so far
+* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191110-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 10.11.2019 - english
+* [How to tame a unicorn](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191023-ipc/index.html) - An introduction to Unicode and how to use it in PHP and MySQL -  [International PHP Conference](https://phpconference.com) - Munich - 23.10.2019 -english
 * [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20190815-joburg/index.html) - Get better - [PHP Johannesburg](https://www.meetup.com/PHP-Johannesburg-Meetup-Group/) (Johannesburg, South Africa) - 15.8.2019 - english
 * [The first contact](https://heiglandreas.github.io/slidedeck/FirstContact/20190608-dpc/index.html) - How to handle contact forms - DPC (Amsterdam) - 08.06.2019 - english - [🎞](https://youtu.be/3MKxDwOHmUc)
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20190606-groningen/index.html)  - An introduction to Unicode and how to use it in PHP and MySQ - PHP-Usergroup Groninge - 06.06.2019 - english
