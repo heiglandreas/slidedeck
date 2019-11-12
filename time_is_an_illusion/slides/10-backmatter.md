@@ -10,9 +10,9 @@
 * [Geolocation => Timezone](http://stackoverflow.com/questions/16086962/how-to-get-a-time-zone-from-a-location-using-latitude-and-longitude-coordinates#answer-16086964)
 * [PHPs DateTimezone](http://php.net/datetimezone)
 * [Time on Mars](https://github.com/eggert/tz/blob/master/Theory)
+* [Why not to convert to UTC](https://andreas.heigl.org/2016/12/22/why-not-to-convert-a-datetime-to-timestamp/)
 
 
 
 
-# Thank you!
-  
+# Thank you!  

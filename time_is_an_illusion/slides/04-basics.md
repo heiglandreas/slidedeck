@@ -6,8 +6,8 @@
 
 
 
-![Current Sun/Night distribution](resources/sunmap.png)
-<span class="credit">[Day and Night world-map](https://www.timeanddate.com/worldclock/sunearth.html?day=26&month=10&year=2018&hour=12&min=30&sec=0&n=961&ntxt=Mannheim&earth=0)</span>
+![Current Sun/Night distribution](resources/sunmap.jpg)
+<span class="credit">[Day and Night world-map](https://www.timeanddate.com/worldclock/sunearth.html?day=13&month=11&year=2019&hour=19&min=00&sec=0&n=%3A&ntxt=Aachen&earth=0)</span>
 
 
 
@@ -81,9 +81,9 @@ Note: Timezone-Name != Timezone Abbreviation
 
 ## Timezones change
 
-![timezones in russia](resources/timezones2010.svg)
+![timezones in russia](../resources/timezones2010.svg)
 <span class="credit">By Map_of_Russia_-_Time_Zones_(September_2011).svg: Lokal Profilderivative work: TZ master (talk) - Map_of_Russia_-_Time_Zones_(September_2011).svg, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=16761048</span>
-![timezones in russia](resources/timezones2014.svg)
+![timezones in russia](../resources/timezones2014.svg)
 <span class="credit">By PlatonPskov, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=33798576</span>
 
 Note: Crimean anexion in 2014, During WW2 in Germany, Political reasons (Venezuela 2014, turkey, Tonga,Cyprus)
@@ -109,23 +109,23 @@ but not the same in europe and america... 30 April 1916 Deutsches Reich
 ```php
 (new DateTimeZone('Europe/Berlin'))->getTransitions();
 /*
-  [143] => Array
-      (
-          [ts] => 1540688400
-          [time] => 2018-10-28T01:00:00+0000
-          [offset] => 3600
-          [isdst] =>
-          [abbr] => CET
-      )
+    [109] => Array
+        (
+            [ts] => 1572138000
+            [time] => 2019-10-27T01:00:00+0000
+            [offset] => 3600
+            [isdst] => 
+            [abbr] => CET
+        )
 
-  [144] => Array
-      (
-          [ts] => 1553994000
-          [time] => 2019-03-31T01:00:00+0000
-          [offset] => 7200
-          [isdst] => 1
-          [abbr] => CEST
-      )
+    [110] => Array
+        (
+            [ts] => 1585443600
+            [time] => 2020-03-29T01:00:00+0000
+            [offset] => 7200
+            [isdst] => 1
+            [abbr] => CEST
+        )
 )
 */
 ```
@@ -146,7 +146,7 @@ but not the same in europe and america... 30 April 1916 Deutsches Reich
 
 * Timezones are political definitions<!-- .element: class="fragment" -->
 * Timezones change<!-- .element: class="fragment" -->
-* Timezones-Abbreviations cover a stripe from northpole to southpole<!-- .element: class="fragment" -->
+* Timezone-Abbreviations cover a stripe from northpole to southpole<!-- .element: class="fragment" -->
 * Zonetimes are defined by the offset from UTC<!-- .element: class="fragment" -->
 * DST may add or remove time to the Zonetime<!-- .element: class="fragment" -->
 * DST does not change the timezone but the zonetime<!-- .element: class="fragment" -->

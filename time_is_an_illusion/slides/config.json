@@ -1,7 +1,11 @@
 {
-    "event" : "GrowIT",
-    "eventdate" : "2.12.2018",
+    "event" : "Web Engineering Aachen",
+    "eventdate" : "13.11.2019",
     "speaker" : "Andreas Heigl",
     "twitter" : "@heiglandreas",
-    "title" : "time is an illusion"
+    "title" : "time is an illusion",
+    "additionalScripts": [
+        "../resources/moment.js",
+        "../resources/moment-timezone-with-data.js"
+    ]
 }

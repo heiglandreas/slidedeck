@@ -32,12 +32,12 @@ class DateTimeZone Object
 
 
 ```php
-print_r(new DateTimezone('Europe/Belgrade'));
+print_r(new DateTimezone('Europe/Berlin'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 3,
-    [timezone]      => "Europe/Belgrade",
+    [timezone]      => "Europe/Berlin",
 )
 */
 ```
@@ -48,13 +48,13 @@ Note: But what are the differences?
 
 
 ```php
-print_r((new DateTimezone('Europe/Belgrade'))->getLocation());
+print_r((new DateTimezone('Europe/Berlin'))->getLocation());
 /* Array
 (
-    [country_code] => RS
-    [latitude] => 44.83333
-    [longitude] => 20.5
-    [comments] => 
+    [country_code] => DE
+    [latitude] => 52.5
+    [longitude] => 13.36666
+    [comments] => Germany (most areas)
 )
 */
 ```
@@ -84,10 +84,10 @@ print_r((new DateTimezone('+01:00'))->getLocation());
 
 ```bash
 $ php -i | grep -i olson
-"Olson" Timezone Database Version => 2018.7
+"Olson" Timezone Database Version => 2019.3
 ```
 
 https://pecl.php.net/package/timezonedb<!-- .element: class="fragment" -->
 https://www.iana.org/time-zones<!-- .element: class="fragment" -->
 
-Note: TZ-Database is kept up-to-date by Paul Eggers. Hosted by IANA. Laste Release 18.10.2018
+Note: TZ-Database is kept up-to-date by Paul Eggers. Hosted by IANA. Laste Release 11.09.2019)

@@ -7,7 +7,7 @@ No (reliable) way!<!-- .element: class="fragment" -->
 
 ## Wait...
 
-
+<script src="../resources/moment.js"></script>
 <div id="timezoneIdentifier"><button onclick="document.getElementById('timezoneIdentifier').innerHTML = moment.tz.guess();">Guess My Timezone</button></div>
 
 ```javascript
@@ -19,11 +19,12 @@ var timezone = moment.tz.guess();
 ## How to get timezones for a country?
 
 ```php
-print_r(DateTimezone::listIdentifiers(DateTimeZone::PER_COUNTRY, 'RS'));
+print_r(DateTimezone::listIdentifiers(DateTimeZone::PER_COUNTRY, 'DE'));
 /*
 Array
 (
-    [0] => Europe/Belgrade
+    [0] => Europe/Berlin,
+    [1] => Europe/Busingen
 )
 */
 ```
@@ -31,17 +32,17 @@ Array
 
 
 ```bash
-$ curl http://api.timezonedb.com/?lat=44.8333&lng=20.5&format=json&key=xxxx | jq
+$ curl http://api.timezonedb.com/?lat=50.776667&lng=6.083611&format=json&key=xxxx | jq
 
 {
   "status": "OK",
   "message": "",
-  "countryCode": "RS",
-  "zoneName": "Europe/Belgrade",
+  "countryCode": "DE",
+  "zoneName": "Europe/Berlin",
   "abbreviation": "CET",
   "gmtOffset": "3600",
   "dst": "1",
-  "timestamp": 1543570715
+  "timestamp": 1573668000
 }
 ```
 

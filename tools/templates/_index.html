@@ -113,6 +113,13 @@
             updateLogoVisibility(event.indexh);
           });
         </script>
+
+        <% if (_.isArray(config.additionalScripts)) { %>
+        <% _.forEach(config.additionalScripts, function(script) { %>
+        <script src="<%= script %>"></script>
+        <% }); %>
+        <% } %>
+
     </body>
-    
+
 </html>
