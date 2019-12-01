@@ -1,0 +1,11 @@
+{
+    "event" : "Web Engineering Aachen",
+    "eventdate" : "13.11.2019",
+    "speaker" : "Andreas Heigl",
+    "twitter" : "@heiglandreas",
+    "title" : "time is an illusion",
+    "additionalScripts": [
+        "../resources/moment.js",
+        "../resources/moment-timezone-with-data.js"
+    ]
+}
