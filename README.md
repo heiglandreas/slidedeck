@@ -1,13 +1,10 @@
 ## Upcoming talks and events
 
-I'll be at 
-* [WebEngineeringAachen](https://www.meetup.com/Web-Engineering-Aachen/) - Aachen - 13.11.2019
-* [mageUC](https://www.mageunconference.org/) - Cologne - 31.11. - 1.12.2019
-
+So far there are no Upcoming Talks or Events planned
 
 ## Slides for talks I held so far
-* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191201-mageunconf/index.html) - An introduction to timezones and how to handle them. Easily - Mage Unconference (Cologne, Germany) - Dec. 2019 - english
-* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191113-aachen/index.html) - An introduction to timezones and how to handle them. Easily - WebEngineering Meetup (Aachen) - Nov. 2019 - german
+* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191201_mageunconf/index.html) - An introduction to timezones and how to handle them. Easily - Mage Unconference (Cologne, Germany) - Dec. 2019 - english
+* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191113_aachen/index.html) - An introduction to timezones and how to handle them. Easily - WebEngineering Meetup (Aachen) - Nov. 2019 - german
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191110-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 10.11.2019 - english
 * [How to tame a unicorn](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191023-ipc/index.html) - An introduction to Unicode and how to use it in PHP and MySQL -  [International PHP Conference](https://phpconference.com) - Munich - 23.10.2019 -english
 * [Gamify your growth as a developer?](https://heiglandreas.github.io/slidedeck/GamifyYourGrowthAsDeveloper/20190815-joburg/index.html) - Get better - [PHP Johannesburg](https://www.meetup.com/PHP-Johannesburg-Meetup-Group/) (Johannesburg, South Africa) - 15.8.2019 - english
