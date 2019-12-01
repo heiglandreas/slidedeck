@@ -1,0 +1,11 @@
+{
+    "event" : "5th Mage Unconference",
+    "eventdate" : "01.12.2019",
+    "speaker" : "Andreas Heigl",
+    "twitter" : "@heiglandreas",
+    "title" : "time is an illusion",
+    "additionalScripts": [
+        "../resources/moment.js",
+        "../resources/moment-timezone-with-data.js"
+    ]
+}
