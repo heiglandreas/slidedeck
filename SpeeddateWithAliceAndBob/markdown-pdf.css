@@ -1,0 +1,20 @@
+/*
+@page :first .pageheader {
+    color: red;
+    display:none;
+}
+*/
+.pageheader:first-of-type {
+    color: goldenrod
+}
+
+.pageheader {
+    color: green;
+    border:1px solid gray;
+    margin: 5em;
+}
+
+h1 {
+    color: red;
+    background-color: blueviolet;
+}
