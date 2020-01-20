@@ -62,3 +62,5 @@ Note: Abu: Vater von karim Mohamed der Schöne sohn von sohn von dem Palästinen
 ### Resources
 
 * https://www.w3.org/International/questions/qa-personal-names
+* https://twitter.com/rakyll/status/1136284321914867715
+* https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
