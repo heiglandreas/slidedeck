@@ -1,8 +1,14 @@
 ## Upcoming talks and events
 
-So far there are no Upcoming Talks or Events planned
+* 13.05.2020 - [PHPRussia Online](https://phprussia.ru/en/2020) (Online)? - time is an illusion - An introduction to timezones and how to handle them. Easily
+* 25.06.2020 - [Dutch PHPConference](https://phpconference.nl) (Online) - A speeddate with Alice and Bob (Workshop) - A primer on Cryptography
+* 08-09.09.2020 - [PHPDay](https://2020.phpday.it/) (Verona) - How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQL
+* 10-12.09.2020 - [PHPSerbia](https://2020.phpsrbija.rs)
+* 15.09.2020 - [PHPRussia](https://phprussia.ru/en/2020) (Moscow)? - time is an illusion - An introduction to timezones and how to handle them. Easily
 
 ## Slides for talks I held so far
+* [A speeddate with Alice and Bob](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200303-phpugrhh) - A primer on Cryptography - 66th PHPUGRHH (Mainz) - 03.03.2020 - english/german
+* [A speeddate with Alice and Bob](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200124-phpbenelux) - A primer on Cryptography - PHPBenelux (Antwerp) - 24.01.2020 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191201_mageunconf/index.html) - An introduction to timezones and how to handle them. Easily - Mage Unconference (Cologne, Germany) - Dec. 2019 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191113_aachen/index.html) - An introduction to timezones and how to handle them. Easily - WebEngineering Meetup (Aachen) - Nov. 2019 - german
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20191110-bgphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [Bulgaria PHP Conference 2019](https://bgphp.org) - Sofia - 10.11.2019 - english

@@ -5,5 +5,6 @@
   "firstcontact" : "../FirstContact",
   "encryption" : "../AliceAndBob",
   "gamify" : "../GamifyYourGrowthAsDeveloper",
-  "speeddate": "../SpeeddateWithAliceAndBob"
+  "speeddate": "../SpeeddateWithAliceAndBob",
+  "learnAndGrow": "../learnAndGrow"
 }

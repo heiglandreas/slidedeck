@@ -1,4 +1,6 @@
 # Generated on 2018-10-23 using generator-bitexpert-slidedeck 0.2.4
+sass = require('node-sass')
+
 module.exports = (grunt) ->
 
     grunt.loadNpmTasks('grunt-symbolic-link')
@@ -63,6 +65,9 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
+            options:
+                implementation: sass
+                sourceMap: true
 
         connect:
 

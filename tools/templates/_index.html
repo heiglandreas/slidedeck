@@ -38,7 +38,12 @@
 
         <div class="reveal">
             <% if (_.isString(config.twitter)) { %><div class="top left"><%= config.twitter %></div><% } %>
-            <% if (_.isString(config.event)) { %><div class="top right"><%= config.event %></div><% } %>
+            <% if (_.isString(config.event)) { %><div class="top right"><% if (_.isString(config.eventlogo)) {
+                %><%=config.eventlogo %><%
+            } else {
+                %><%= config.event %><%
+            } %></div><% } %>
+            <% if (_.isString(config.bottomright)) { %><div class="bottom right"><%= config.bottomright %></div><% } %>
 
             <div class="slides">
                 <section>
