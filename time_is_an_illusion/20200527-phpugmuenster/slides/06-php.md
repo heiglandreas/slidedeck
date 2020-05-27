@@ -1,7 +1,7 @@
 
 ## How to handle DateTimes in PHP.
 
-* Don't relly on server-time!<!-- .element: class="fragment" -->
+* Don't rely on server-time!<!-- .element: class="fragment" -->
 * Always use DateTime with timezone-information (User-Related Dates)<!-- .element: class="fragment" -->
 * Or use DateTime with UTC as Timezone (Server-Related Dates)<!-- .element: class="fragment" -->
 * use DateTimeImmutable<!-- .element: class="fragment" -->

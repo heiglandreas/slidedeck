@@ -20,7 +20,7 @@ $stmt->exec([
 $stmt = $pdo->prepare('SELECT * from `event`');
 $stmt->execute();
 $row = $stmt->fetchRow();
-$date = new DateTimeImmutable($row->datetime, $row->timezone);
+$date = new DateTimeImmutable($row->datetime, new DateTimeZone($row->timezone));
 ```
 
 
