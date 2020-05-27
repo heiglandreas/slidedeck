@@ -19,35 +19,11 @@ var timezone = moment.tz.guess();
 ## How to get timezones for a country?
 
 ```php
-print_r(DateTimezone::listIdentifiers(DateTimeZone::PER_COUNTRY, 'RU'));
+print_r(DateTimezone::listIdentifiers(DateTimeZone::PER_COUNTRY, 'DE'));
 /*
 Array (
-    [0] => Asia/Anadyr
-    [1] => Asia/Barnaul
-    [2] => Asia/Chita
-    [3] => Asia/Irkutsk
-    [4] => Asia/Kamchatka
-    [5] => Asia/Khandyga
-    [6] => Asia/Krasnoyarsk
-    [7] => Asia/Magadan
-    [8] => Asia/Novokuznetsk
-    [9] => Asia/Novosibirsk
-    [10] => Asia/Omsk
-    [11] => Asia/Sakhalin
-    [12] => Asia/Srednekolymsk
-    [13] => Asia/Tomsk
-    [14] => Asia/Ust-Nera
-    [15] => Asia/Vladivostok
-    [16] => Asia/Yakutsk
-    [17] => Asia/Yekaterinburg
-    [18] => Europe/Astrakhan
-    [19] => Europe/Kaliningrad
-    [20] => Europe/Kirov
-    [21] => Europe/Moscow
-    [22] => Europe/Samara
-    [23] => Europe/Saratov
-    [24] => Europe/Ulyanovsk
-    [25] => Europe/Volgograd
+    [0] => Europe/Berlin
+    [1] => Europe/Busingen
 )
 */
 ```
@@ -55,15 +31,15 @@ Array (
 
 
 ```bash
-$ curl http://api.timezonedb.com/?lat=55.75583&lng=37.61777&format=json&key=xxxx | jq
+$ curl http://api.timezonedb.com/?lat=51.962944lng=7.628694&format=json&key=xxxx | jq
 {
   "status": "OK",
   "message": "",
-  "countryCode": "RU",
-  "zoneName": "Europe/Moscow",
-  "abbreviation": "MSK",
-  "gmtOffset": "10800",
-  "dst": "0",
+  "countryCode": "DE",
+  "zoneName": "Europe/Berlin",
+  "abbreviation": "CEST",
+  "gmtOffset": "7200",
+  "dst": "1",
   "timestamp": 1589043167
 }
 ```
@@ -73,19 +49,19 @@ $ curl http://api.timezonedb.com/?lat=55.75583&lng=37.61777&format=json&key=xxxx
 ## How to get timezones for abbreviation?
 
 ```php
-DateTimeZone::listAbbreviations()['msk'];
+DateTimeZone::listAbbreviations()['CEST'];
 /*
 Array (
     [0] => Array (
-        [dst] => 
-        [offset] => 10800
-        [timezone_id] => Europe/Moscow
+        [dst] => 1
+        [offset] => 7200
+        [timezone_id] => Europe/Berlin
     )
     ...
-    [13] => Array (
-        [dst] => 
-        [offset] => 14400
-        [timezone_id] => Europe/Simferopol
+    [51] => Array (
+        [dst] => 1
+        [offset] => 7200
+        [timezone_id] => Europe/Zurich
     )
 }
 */

@@ -12,14 +12,14 @@ Note: Rendering depends on the purpose. Either users local time or events local 
 
 
 ```php
-$timezone = new DateTimezone('Europe/Moscow');
+$timezone = new DateTimezone('Europe/Berlin');
 
-$date = new DatetimeImmutable('2020-05-13 10:30:00', $timezone);
+$date = new DatetimeImmutable('2020-05-27 19:30:00', $timezone);
 echo $date->format('c');
-// 2020-05-13T10:30:00+03:00
+// 2020-05-27T19:30:00+02:00
 $date = $date->setTimezone(new DateTimezone('America/Phoenix'));
 echo $date->format('c');
-//2020-05-13T00:30:00-07:00
+//2020-05-27T10:30:00-07:00
 ```
 
 Note: American DST starts 2nd weekend, European last weekend in March! same back!
@@ -31,7 +31,7 @@ Note: American DST starts 2nd weekend, European last weekend in March! same back
 ```php
 $date = new DateTimeImmutable('a');
 echo $date->format('c');
-// 2020-05-13T10:30:00+01:00
+// 2020-05-27T19:30:00+01:00
 
 $date = new DateTimeImmutable('j');
 PHP Warning:  Uncaught Exception: DateTime::__construct(): Failed to parse time

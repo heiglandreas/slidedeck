@@ -5,12 +5,12 @@ Note: There are three different ways to establish a timezone-object.
 
 
 ```php
-print_r(new DateTimezone('+03:00'));
+print_r(new DateTimezone('+02:00'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 1,
-    [timezone]      => "+03:00",
+    [timezone]      => "+02:00",
 )
 */
 ```
@@ -18,12 +18,12 @@ class DateTimeZone Object
 
 
 ```php
-print_r(new DateTimezone('MSK'));
+print_r(new DateTimezone('CEST'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 2,
-    [timezone]      => "MSK",
+    [timezone]      => "CEST",
 )
 
 */
@@ -32,12 +32,12 @@ class DateTimeZone Object
 
 
 ```php
-print_r(new DateTimezone('Europe/Moscow'));
+print_r(new DateTimezone('Europe/Berlin'));
 /*
 class DateTimeZone Object
 (
     [timezone_type] => 3,
-    [timezone]      => "Europe/Moscow",
+    [timezone]      => "Europe/Berlin",
 )
 */
 ```
@@ -48,21 +48,20 @@ Note: But what are the differences?
 
 
 ```php
-print_r((new DateTimezone('Europe/Moscow'))->getLocation());
+print_r((new DateTimezone('Europe/Berlin'))->getLocation());
 /* Array (
-    [country_code] => RU
-    [latitude] => 55.75583
-    [longitude] => 37.61777
-    [comments] => MSK+00 - Moscow area
+    [country_code] => DE
+    [latitude] => 52.5
+    [longitude] => 13.36666
+    [comments] => Germany (most areas)
 )
 */
 ```
-Note: Just outside the Kreml (between history museum and the museum of the patriotic war 1812) !
 
 
 
 ```php
-print_r((new DateTimezone('MSK'))->getLocation());
+print_r((new DateTimezone('CEST'))->getLocation());
 /*
 */
 ```
@@ -70,7 +69,7 @@ print_r((new DateTimezone('MSK'))->getLocation());
 
 
 ```php
-print_r((new DateTimezone('+03:00'))->getLocation());
+print_r((new DateTimezone('+02:00'))->getLocation());
 /*
 */
 ```

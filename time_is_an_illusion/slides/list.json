@@ -7,13 +7,6 @@
         }
     },
     {
-        "filename" : "09-joind.in.md",
-        "attr" : {
-            "data-separator" : "\\n\\n\\n\\n",
-            "data-vertical" : "\\n\\n\\n"
-        }
-    },
-    {
         "filename" : "03-history.md",
         "attr" : {
             "data-separator" : "\\n\\n\\n\\n",
@@ -50,13 +43,6 @@
     },
     {
         "filename" : "08-empfehlung.md",
-        "attr" : {
-            "data-separator" : "\\n\\n\\n\\n",
-            "data-vertical" : "\\n\\n\\n"
-        }
-    },
-    {
-        "filename" : "09-joind.in.md",
         "attr" : {
             "data-separator" : "\\n\\n\\n\\n",
             "data-vertical" : "\\n\\n\\n"

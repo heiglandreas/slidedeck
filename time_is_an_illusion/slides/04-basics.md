@@ -6,8 +6,8 @@
 
 
 
-![Current Sun/Night distribution](resources/sunmap.jpg)
-<span class="credit">[Day and Night world-map](https://www.timeanddate.com/worldclock/sunearth.html?day=13&month=5&year=2020&hour=8&min=00&sec=0&n=%3A&ntxt=Moskow&earth=0)</span>
+![Current Sun/Night distribution](resources/sunmap.png)
+<span class="credit">[Day and Night world-map](https://www.timeanddate.com/worldclock/sunearth.html?day=27&month=5&year=2020&hour=19&min=45&sec=0&n=968&ntxt=M%C3%BCnster&earth=0)</span>
 
 
 
