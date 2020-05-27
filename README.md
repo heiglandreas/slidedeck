@@ -6,7 +6,8 @@
 * 15.09.2020 - [PHPRussia](https://phprussia.ru/en/2020) (Moscow)? - time is an illusion - An introduction to timezones and how to handle them. Easily
 
 ## Slides for talks I held so far
-* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20200513_phprussia_online/index.html) - An introduction to timezones and how to handle them. Easily - PHPRussia 2020 online (online) - May. 2020 - english
+* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20200527-phpugmuenster/index.html) - An introduction to timezones and how to handle them. Easily - PHP-Usergroup Münster - 27.05.2020 - english
+* [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20200513_phprussia_online/index.html) - An introduction to timezones and how to handle them. Easily - PHPRussia 2020 online (online) - 13.05.2020 - english
 * [A speeddate with Alice and Bob](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200303-phpugrhh) - A primer on Cryptography - 66th PHPUGRHH (Mainz) - 03.03.2020 - english/german
 * [A speeddate with Alice and Bob](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200124-phpbenelux) - A primer on Cryptography - PHPBenelux (Antwerp) - 24.01.2020 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20191201_mageunconf/index.html) - An introduction to timezones and how to handle them. Easily - Mage Unconference (Cologne, Germany) - Dec. 2019 - english

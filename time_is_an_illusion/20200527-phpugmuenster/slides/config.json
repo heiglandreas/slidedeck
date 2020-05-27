@@ -1,0 +1,12 @@
+{
+    "event" : "PHPUG Münster",
+    "eventdate" : "127.05.2020",
+    "speaker" : "Andreas Heigl",
+    "twitter" : "@heiglandreas",
+    "title" : "time is an illusion",
+    "additionalScripts": [
+        "../resources/moment.js",
+        "../resources/moment-timezone-with-data.js"
+    ],
+    "_eventlogo": "<img height='70' src='../resources/php_russia_2020.svg'/>"
+}
