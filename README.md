@@ -1,11 +1,11 @@
 ## Upcoming talks and events
 
-* 25.06.2020 - [Dutch PHPConference](https://phpconference.nl) (Online) - A speeddate with Alice and Bob (Workshop) - A primer on Cryptography
 * 08-09.09.2020 - [PHPDay](https://2020.phpday.it/) (Verona) - How to tame a 🦄 - An introduction to Unicode and how to use it in PHP and MySQL
 * 10-12.09.2020 - [PHPSerbia](https://2020.phpsrbija.rs)
 * 15.09.2020 - [PHPRussia](https://phprussia.ru/en/2020) (Moscow)? - time is an illusion - An introduction to timezones and how to handle them. Easily
 
 ## Slides for talks I held so far
+* [A speeddate with Alice and Bob (Workshop)](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200625-dpc-workshop/index.html) - A primer on Cryptography - [Dutch PHPConference](https://phpconference.nl) (Online) - 265.06.2020 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20200527-phpugmuenster/index.html) - An introduction to timezones and how to handle them. Easily - PHP-Usergroup Münster - 27.05.2020 - english
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20200513_phprussia_online/index.html) - An introduction to timezones and how to handle them. Easily - PHPRussia 2020 online (online) - 13.05.2020 - english
 * [A speeddate with Alice and Bob](https://heiglandreas.github.io/slidedeck/SpeeddateWithAliceAndBob/20200303-phpugrhh) - A primer on Cryptography - 66th PHPUGRHH (Mainz) - 03.03.2020 - english/german

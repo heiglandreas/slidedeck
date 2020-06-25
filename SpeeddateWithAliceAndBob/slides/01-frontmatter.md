@@ -224,6 +224,8 @@ personal-cipher-preferences AES256 AES192 AES CAST5
 s2k-cipher-algo AES256
 [...]
 ```
+https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf
+
 
 
 
@@ -295,6 +297,7 @@ Certificate back. You can use that then in your email client.
 * [GPG-Suite](https://gpgtools.org/gpgmail/index.html)
 * [Enigmail](https://www.enigmail.net/index.php/en/)
 * [Gpg4win](https://www.gpg4win.org/about.html)??
+* [Mailvelope](https://mailvelope.com) for Webmail
 Note: Depends on System. Usually one can 
 
 
@@ -483,22 +486,35 @@ AemBysf7klSMgYZYBeO91WbJ+jNhnfmGe3H540WPY7LdVEAGreymhlh/KHQ=
 
 
 
-<!--
 # Feedback
 
 ## Only those that know what went wrong can change something.</h3>
 <div class="multicolumn">
 <div>
 <p>You can provide feedback at <a href="http://joind.in">joind.in</a>.</p>
-<p><a href="https://joind.in/talk/88106">joind.in/talk/88106</a></p>
+<p><a href="https://joind.in/talk/abe67">joind.in/talk/abe67</a></p>
 </div>
 <div>
 
-![https://joind.in/talk/88106](../resources/chart.png)
+![https://joind.in/talk/abe67](../resources/chart.png)
 
 </div>
 </div> 
--->
+
+
+
+# Resources
+
+* https://blog.tinned-software.net/create-gnupg-key-with-sub-keys-to-sign-encrypt-authenticate/
+* https://incenp.org/notes/2015/using-an-offline-gnupg-master-key.html
+* https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key
+* http://www.jabberwocky.com/software/paperkey/
+* https://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/
+* https://www.linux.com/training-tutorials/pgp-web-trust-core-concepts-behind-trusted-communication/
+* https://www.mailvelope.com
+* https://www.gnupg.org/faq/gnupg-faq.html#generate_revocation_certificate
+* https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/
+
 
 
 
