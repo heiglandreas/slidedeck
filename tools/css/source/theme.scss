@@ -86,7 +86,8 @@ ul {
         top: 20px;
         position:fixed;
         font-size: 0.42em;
-        color: #747474
+        color: #747474;
+        z-index: 10;
     }
 
     .left {

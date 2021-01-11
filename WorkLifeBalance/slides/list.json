@@ -1,0 +1,27 @@
+[
+    {
+        "filename" : "00-disclaimer.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },{
+        "filename" : "09-joind.in.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },{
+        "filename" : "01-frontmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },{
+        "filename" : "09-joind.in.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    }
+]

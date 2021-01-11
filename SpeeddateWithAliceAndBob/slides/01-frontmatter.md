@@ -11,22 +11,21 @@ Note: To get that out of the way...
 
 
 
-<!--
 # Feedback
 
 ## Only those that know what went wrong can change something.</h3>
 <div class="multicolumn">
 <div>
 <p>You can provide feedback at <a href="http://joind.in">joind.in</a>.</p>
-<p><a href="https://joind.in/talk/88106">joind.in/talk/88106</a></p>
+<p><a href="https://joind.in/talk/abe67">joind.in/talk/abe67</a></p>
 </div>
 <div>
 
-![https://joind.in/talk/88106](../resources/chart.png)
+![https://joind.in/talk/abe67](../resources/chart.png)
 
 </div>
 </div>
--->
+
 
 
 <div class="">

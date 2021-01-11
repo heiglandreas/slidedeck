@@ -5,5 +5,12 @@
             "data-separator" : "\\n\\n\\n\\n",
             "data-vertical" : "\\n\\n\\n"
         }
+    },
+    {
+        "filename" : "80-cheatsheet.md",
+        "attr" : {
+            "data-separator": "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
     }
 ]

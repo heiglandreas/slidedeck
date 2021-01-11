@@ -34,16 +34,8 @@
     </head>
 
     <body>
-		<img class="corner-logo" src="img/logo_startpage.svg" />
 
         <div class="reveal">
-            <% if (_.isString(config.twitter)) { %><div class="top left"><%= config.twitter %></div><% } %>
-            <% if (_.isString(config.event)) { %><div class="top right"><% if (_.isString(config.eventlogo)) {
-                %><%=config.eventlogo %><%
-            } else {
-                %><%= config.event %><%
-            } %></div><% } %>
-            <% if (_.isString(config.bottomright)) { %><div class="bottom right"><%= config.bottomright %></div><% } %>
 
             <div class="slides">
                 <section>
@@ -68,8 +60,15 @@
                     <% } %>
                 <% }); %>
             </div>
-
+            <% if (_.isString(config.twitter)) { %><div class="top left"><%= config.twitter %></div><% } %>
+            <% if (_.isString(config.event)) { %><div class="top right"><% if (_.isString(config.eventlogo)) {
+                %><%=config.eventlogo %><%
+            } else {
+                %><%= config.event %><%
+            } %></div><% } %>
+            <% if (_.isString(config.bottomright)) { %><div class="bottom right"><%= config.bottomright %></div><% } %>
         </div>
+		<img class="corner-logo" src="img/logo_startpage.svg" />
 
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.js"></script>
@@ -83,7 +82,8 @@
             history: true,
             center: true,
 
-            transition: 'convex', // none/fade/slide/convex/concave/zoom
+            transition: 'fade', // none/fade/slide/convex/concave/zoom
+            _backgroundTransition: 'fade',
 
             // Optional reveal.js plugins
             dependencies: [

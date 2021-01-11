@@ -6,5 +6,6 @@
   "encryption" : "../AliceAndBob",
   "gamify" : "../GamifyYourGrowthAsDeveloper",
   "speeddate": "../SpeeddateWithAliceAndBob",
-  "learnAndGrow": "../learnAndGrow"
+  "learnAndGrow": "../learnAndGrow",
+    "workLifeBalance": "../WorkLifeBalance"
 }
