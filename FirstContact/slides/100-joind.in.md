@@ -1,7 +1,7 @@
 ## Please leave feedback 
 
-on [joind.in/talk/92d67](https://joind.in/talk/92d67)
+on [joind.in/talk/a9a5c](https://joind.in/talk/a9a5c)
 
-[![https://joind.in/talk/92d67](../resources/chart.png)](https://joind.in/talk/92d67)
+[![https://joind.in/talk/a9a5c](../resources/chart.png)](https://joind.in/talk/a9a5c)
 
 > Only those that know what went wrong can change something.
