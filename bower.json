@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "reveal.js": "^3.0"
+    "reveal.js": "^4.0"
   }
 }
