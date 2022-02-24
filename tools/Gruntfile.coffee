@@ -3,7 +3,7 @@ sass = require('node-sass')
 
 module.exports = (grunt) ->
 
-    grunt.loadNpmTasks('grunt-symbolic-link')
+    grunt.loadNpmTasks('grunt-symlink')
 
     getPath =() ->
         paths = grunt.file.readJSON 'talks.json'
@@ -50,15 +50,14 @@ module.exports = (grunt) ->
         symlink:
 
             slides:
-                target: path + 'slides'
-                link: 'slides'
-                options:
-                    overwrite: true
+                dest: 'slides'
+                relativeSrc: path + 'slides'
+                options: {type: 'dir' }
+
             img:
-                target: path + 'resources'
-                link: 'resources'
-                options:
-                    overwrite: true
+                dest: 'resources'
+                relativeSrc: path + 'resources'
+                options: {type: 'dir' }
 
         sass:
 

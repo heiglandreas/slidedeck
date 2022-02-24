@@ -1,0 +1,15 @@
+{
+    "event" : "ConFoo 2022",
+    "eventdate" : "24.02.2022",
+    "speaker" : "Andreas Heigl",
+    "twitter" : "@heiglandreas",
+    "title" : "Watch your Clock",
+    "additionalScripts": [
+        "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+        "../resources/slideshow.js",
+        "../resources/slides.js"
+    ],
+    "additionalStyles": [
+        "../resources/style.css"
+    ]
+}

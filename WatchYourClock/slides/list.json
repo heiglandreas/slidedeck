@@ -1,0 +1,16 @@
+[
+    {
+        "filename" : "01.0-frontmatter.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    },
+    {
+        "filename" : "02.0-talk.md",
+        "attr" : {
+            "data-separator" : "\\n\\n\\n\\n",
+            "data-vertical" : "\\n\\n\\n"
+        }
+    }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Areas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+  <style type="text/css">
+      * {margin:0px; padding: 0px;}
+      html, body {height: 100%;}
+      #mapid { height: 100%; }
+  </style>
+</head>
+<body>
+<div id="mapid"></div>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+<script type="application/javascript">
+    var mymap = L.map('mapid');
+    var openstreetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18
+    })
+
+    var circle = L.circle([45.5, -73.55], {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 70000
+    })
+
+    var controls = L.control.layers({
+        'Openstreetmap': openstreetmap
+    }, {
+        '70km radius': circle
+    }, {
+        'position': 'bottomleft'
+    }).addTo(mymap);
+
+
+    var metroAmsterdam = L.polygon([]);
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', 'metropolregionamsterdam.geojson');
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+        if (xhr.status !== 200) return
+        metroAmsterdam = L.geoJSON(xhr.response);
+        controls.addOverlay(metroAmsterdam, metroAmsterdam.name);
+    };
+
+    var aroundCEST = L.polygon([]);
+    let xhr1 = new XMLHttpRequest();
+    xhr1.open('GET', 'aroundCEST.geojson');
+    xhr1.setRequestHeader('Content-Type', 'application/json');
+    xhr1.responseType = 'json';
+    xhr1.onload = function() {
+        if (xhr1.status !== 200) return
+        aroundCEST = L.geoJSON(xhr1.response);
+        controls.addOverlay(aroundCEST, "aroundCEST");
+    };
+
+    var aroundEST = L.polygon([]);
+    let xhr2 = new XMLHttpRequest();
+    xhr2.open('GET', 'aroundEST.geojson');
+    xhr2.setRequestHeader('Content-Type', 'application/json');
+    xhr2.responseType = 'json';
+    xhr2.onload = function() {
+        if (xhr2.status !== 200) return
+        aroundEST = L.geoJSON(xhr2.response);
+        controls.addOverlay(aroundEST, "aroundEST");
+    };
+
+    xhr.send();
+    xhr1.send();
+    xhr2.send();
+    mymap.setView([52.366667, 4.9], 3).addLayer(openstreetmap);
+
+
+</script>
+</body>
+</html>

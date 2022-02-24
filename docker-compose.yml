@@ -1,6 +1,19 @@
-web:
-  image: nginx:alpine
-  volumes:
-  - .:/usr/share/nginx/html
-  ports:
-  - "1234:80"
+version: "3.5"
+
+services:
+  web:
+    image: nginx:1.20.0-alpine
+    volumes:
+    - .:/usr/share/nginx/html
+    ports:
+    - "1234:80"
+  node:
+    build:
+      context: ./tools
+      dockerfile: Dockerfile
+    #entrypoint: "bash -c 'cd /app/tools && npm install --global grunt && npm install --production' && grunt dist --talk=timezone"
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+      - "8000:8000"
