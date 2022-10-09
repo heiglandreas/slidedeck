@@ -1,0 +1,30 @@
+{
+	"name": "watch your clock",
+	"event": "ForumPHP 2022",
+	"eventdate": "13.10.2022",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas",
+	"title": "Watch your Clock",
+	"eventslug": "20221013-forumphp",
+	"additionalScripts": [
+		"deck/resources/jquery.min.js",
+		"deck/resources/slideshow.js"
+	],
+	"additionalStyles": [
+		"deck/resources/style.css"
+	],
+	"reveal": {
+		"ready" : [
+			"(a => {$((function(){$(\"#dg-container\").gallery({autoplay:!0})}))})"
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "03.0-joindin.md"
+	}, {
+		"file" : "02.0-talk.md"
+	}, {
+		"file" : "03.0-joindin.md"
+	}]
+}
