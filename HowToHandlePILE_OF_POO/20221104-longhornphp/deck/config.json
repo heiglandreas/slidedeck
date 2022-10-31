@@ -1,0 +1,30 @@
+{
+	"name": "how to tame a \uD83E\uDD84",
+	"event": "LonghornPHP",
+	"eventdate": "04.11.2022",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas",
+	"title": "How to tame a \uD83E\uDD84",
+	"eventslug": "20221104-longhornphp",
+	"slides": [{
+		"file" : "01.2-frontmatter.md"
+	}, {
+		"file" : "98.0-joindin.md"
+	}, {
+		"file" : "02.0-definitions.md"
+	}, {
+		"file" : "03.0-history.md"
+	}, {
+		"file" : "04.0-unicode.md"
+	}, {
+		"file" : "05.1-php.md"
+	}, {
+		"file" : "06.0-mysql.md"
+	}, {
+		"file" : "07.0-recap.md"
+	}, {
+		"file" : "98.0-joindin.md"
+	}, {
+		"file" : "99.0-backmatter.md"
+	}]
+}
