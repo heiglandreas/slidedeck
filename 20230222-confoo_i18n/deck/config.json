@@ -1,0 +1,22 @@
+{
+	"name": "i18n",
+	"event": "ConFoo 2023",
+	"eventdate": "22.02.2023",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas",
+	"title": "Pardon my french",
+	"eventslug": "20230222-confoo",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-talk.md"
+	}]
+}

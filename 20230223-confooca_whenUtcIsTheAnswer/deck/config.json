@@ -1,0 +1,34 @@
+{
+	"name": "when UTC is the answer",
+	"event": "ConFoo 2023",
+	"eventdate": "05.11.2022",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas",
+	"title": "When UTC is the answer…",
+	"eventslug": "20230223-confooca",
+	"additionalScripts": [
+		"deck/resources/jquery.min.js",
+		"deck/resources/slideshow.js"
+	],
+	"additionalStyles": [
+		"deck/resources/style.css"
+	],
+	"reveal": {
+		"ready" : [
+			"(a => {$((function(){$(\"#dg-container\").gallery({autoplay:!0})}))})"
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-time.md"
+	}, {
+		"file" : "03.0-valueobject.md"
+	}, {
+		"file" : "04.0-applicationstructure.md"
+	}, {
+		"file" : "05.0-wrapup.md"
+	}, {
+		"file" : "99.0-attributions.md"
+	}]
+}

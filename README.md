@@ -1,8 +1,11 @@
 ## Upcoming talks and events
 
 ## Slides for talks I held so far
-* [When UTC is the answer...](https://heiglandreas.github.io/slidedeck/20221105-longhornphp/index.php) - you might have asked the wrong questions! When to use and not use UTC - [LonghornPHP](https://www.longhornphp.com) - 05.11.2022 - english
-* [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20221104-longhornphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQL - [LonghornPHP](https://www.longhornphp.com) - 04.11.2022 - english
+* [When UtC is the answer...](https://heiglandreas.github.io/slidedeck/20230223-confoo_whenUtcIsTheAnswer/index.html) - ... you might have asked the wron questions - [ConFoo](https://www.confoo.ca) - 23.02.2023 - english
+* [Pardon my french](https://heiglandreas.github.io/slidedeck/20230222-confoo_i18n/index.html) - technical aspects of i18n and l10n - [ConFoo](https://www.confoo.ca) - 22.02.2023 - english
+* [Watch the Clock](https://heiglandreas.github.io/slidedeck/20230208-daphp_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [Darmstadt PHP Usergroup](https://www.meetup.com/daphp) - 08.02.2023 - english
+* 05.11.2022 @ [LonghornPHP](https://www.longhornphp.com): When UTC is the answer... - you might have asked the wrong questions! When to use and not use UTC - english
+* 04.11.2022 @ [LonghornPHP](https://www.longhornphp.com): [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20221104.longhornphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQL - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/WatchYourClock/20221013-forumphp/index.html) - An introduction into the ClockInterface of PSR-20 - [ForumPHP](https://event.afup.org/forum-php-2022) - 13.10.2022 - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/WatchYourClock/20220224-confoo/index.html) - An introduction into the ClockInterface of PSR-20 - [ConFoo](https://confoo.ca) - 24.02.2022 - english
 * [scaling :wqdiversity](https://heiglandreas.github.io/slidedeck/globalDiversity/20220223-confoo/index.html) - How to scale diversity on a globaly distributed level - [ConFoo](https://confoo.ca) - 23.02.2022 - english
