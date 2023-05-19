@@ -1,0 +1,22 @@
+{
+	"name": "calendar",
+	"event": "PHP Amersfoort",
+	"eventdate": "14.03.2023",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "in the year 2525 ...",
+	"eventslug": "20230314-phpamersfoort",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-slides.md"
+	}]
+}

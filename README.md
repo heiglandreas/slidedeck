@@ -1,6 +1,8 @@
 ## Upcoming talks and events
 
 ## Slides for talks I held so far
+* [Watch the Clock](https://heiglandreas.github.io/slidedeck/20230526-phperssummit_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [PHPers Summit 2023](https://summit.phpers.pl) - 26.05.2023 - english
+* [In the year 2525...](https://heiglandreas.github.io/slidedeck/20230314-phpamersfoort_calendar/index.html) - ... calendars and PHP - PHPAmersfoort - 14.03.2023 - english
 * [When UtC is the answer...](https://heiglandreas.github.io/slidedeck/20230223-confoo_whenUtcIsTheAnswer/index.html) - ... you might have asked the wron questions - [ConFoo](https://www.confoo.ca) - 23.02.2023 - english
 * [Pardon my french](https://heiglandreas.github.io/slidedeck/20230222-confoo_i18n/index.html) - technical aspects of i18n and l10n - [ConFoo](https://www.confoo.ca) - 22.02.2023 - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/20230208-daphp_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [Darmstadt PHP Usergroup](https://www.meetup.com/daphp) - 08.02.2023 - english
