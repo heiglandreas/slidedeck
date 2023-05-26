@@ -22,10 +22,6 @@
 	"slides": [{
 		"file" : "01.0-frontmatter.md"
 	}, {
-		"file" : "03.0-joindin.md"
-	}, {
 		"file" : "02.0-talk.md"
-	}, {
-		"file" : "03.0-joindin.md"
 	}]
 }

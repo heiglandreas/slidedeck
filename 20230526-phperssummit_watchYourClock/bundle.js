@@ -18020,7 +18020,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABz
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"watch the clock","event":"PHPers Summit 2023","eventdate":"26.05.2023","speaker":"Andreas Heigl","twitter":"@heiglandreas@phpc.social","title":"Watch the Clock","eventslug":"20230526-phperssummit","eventlogo":"deck/resources/phpers-summit-2023_logo.svg","additionalScripts":["deck/resources/jquery.min.js","deck/resources/slideshow.js"],"additionalStyles":["deck/resources/style.css"],"reveal":{"ready":["(a => {$((function(){$(\\"#dg-container\\").gallery({autoplay:!0})}))})"]},"slides":[{"file":"01.0-frontmatter.md"},{"file":"03.0-joindin.md"},{"file":"02.0-talk.md"},{"file":"03.0-joindin.md"}]}');
+module.exports = JSON.parse('{"name":"watch the clock","event":"PHPers Summit 2023","eventdate":"26.05.2023","speaker":"Andreas Heigl","twitter":"@heiglandreas@phpc.social","title":"Watch the Clock","eventslug":"20230526-phperssummit","eventlogo":"deck/resources/phpers-summit-2023_logo.svg","additionalScripts":["deck/resources/jquery.min.js","deck/resources/slideshow.js"],"additionalStyles":["deck/resources/style.css"],"reveal":{"ready":["(a => {$((function(){$(\\"#dg-container\\").gallery({autoplay:!0})}))})"]},"slides":[{"file":"01.0-frontmatter.md"},{"file":"02.0-talk.md"}]}');
 
 /***/ })
 

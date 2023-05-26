@@ -80,3 +80,9 @@
     background-position: top right;
     margin-left: 10px;
 }
+.top.right img {
+	width:250px;
+	height:250px;
+	margin: 0;
+	padding: 0;
+}
