@@ -1,0 +1,514 @@
+# What's new and
+# <!-- .element: class="fragment"-->(perhaps not so)
+# shiny in PHP 8.3
+---
+## Release Date
+## 23.11.2023
+---
+# New Stuff
+---
+## #[Override()]
+---
+```php
+class Car {
+    public function start(): void {
+        echo 'Wroooooom';
+    }
+}
+
+class ElectricCar extends Car {
+    #[Overwrite]
+    public function start(): void {
+        echo '';
+    }
+}
+```
+---
+```php
+class Car {
+    public function startEngine(): void {
+        echo 'Wroooooom';
+    }
+}
+
+class ElectricCar extends Car {
+    #[Overwrite]
+    public function start(): void {
+        echo '';
+    }
+}
+```
+---
+## Arbitrary static variable initializers
+---
+```php
+function increment(): int {
+    static $i = 1;
+    return $i++;
+}
+```
+---
+```php
+function increment(): int {
+    static $i = initialize();
+    return $i++;
+}
+
+function initialize(): int {
+    return 0;
+}
+```
+---
+## Dynamic class constant fetch
+---
+```php
+class Foo {
+    public string $bar = 'bar';
+    public function bar(): void {}
+    public const bar = 'BAR';
+}
+$foo = new Foo;
+$bar = 'bar';
+
+$foo->$bar;
+$foo->{$bar}();
+FOO::{$bar};
+// Syntax Error for PHP < 8.3
+```
+---
+## Modify readonly when cloning
+---
+```php
+readonly class Foo {
+    public string $bar = 'bar';
+
+    public function clone() {
+        $this->bar = 'foo';
+    }
+}
+
+$a = clone (new Foo)
+// Breaks in PHP < 8.3
+```
+---
+## Typed class constants
+---
+```php
+class Foo {
+    public const string FOO = 'bar';
+}
+```
+---
+## mb_str_pad
+---
+```php
+var_dump(str_pad('Français', 10, '_', STR_PAD_RIGHT));
+// string(10) "Français_"
+// Only 9 characters...
+var_dump(mb_str_pad('Français', 10, '_', STR_PAD_RIGHT));
+// string(11) "Français__"
+```
+---
+## Randomizer additions
+---
+```php
+$randomizer = new \Random\Randomizer();
+
+var_dump(
+    implode('-', str_split($randomizer->getBytesFromString('0123456789', 20), 5))
+);
+// string(23) "09898-46592-79230-33336"
+```
+---
+```php
+$randomizer = new \Random\Randomizer();
+var_dump(sprintf(
+    "Lat: %+.6f Lng: %+.6f",
+    $randomizer->getFloat(-90, 90, \Random\IntervalBoundary::ClosedClosed),
+    $randomizer->getFloat(-180, 180, \Random\IntervalBoundary::OpenClosed),
+));
+// string(32) "Lat: -51.742529 Lng: +135.396328"
+```
+---
+```php
+$randomizer = new \Random\Randomizer();
+
+var_dump(
+    $randomizer->nextFloat() < 0.5
+    //faster than $randomizer->getFloat(0, 1, \Random\IntervalBoundary::ClosedOpen
+);
+// bool(true)
+```
+---
+## More appropriate DateTime Exceptions
+---
+* DateException
+  * DateInvalidTimeZoneException (these are not easy to just change/add)
+  * DateInvalidOperationException
+  * DateMalformedStringException
+  * DateMalformedIntervalStringException
+  * DateMalformedPeriodStringException (all DatePeriod's constructor)
+---
+### Caveat! BC-Breaks
+```php
+new DateTimeImmutable('@2_147_483_648');
+// Throws DAteRangeError instead of ValueError - 32bit systems only
+(new DateTimeImmutable('2023-11-23T19:30:00'))->sub(
+    DateInterval::createFromDateString('next wednesday'));
+// throws DateInvalidOperationException instead of warning and NULL
+new DateTimeImmutable('php8.3 release date');
+// throws DateMalformedStringException instead of warning and NULL
+```
+---
+## JSON validate
+---
+```php
+json_validate('borked JSON string');
+// faster than
+// json_decode('borked JSON sring') === false
+// && 'borked JSON string === 'false'
+```
+---
+## Exceptions in SQLite
+---
+Introduce `SQLite3::enableExceptions(true)`
+* PHP8.3: Allow usage of Exceptions and deprecate using warnings
+* PHP9: Make Exceptions the default, remove warnings
+* PHP10: Remove `SQLite3::enableExceptions(true)`
+---
+## PHP.ini default values
+---
+```ini
+session.name={$SESSION_NAME}:-MyAwesomeSession
+```
+```php
+ini_get('session.name');
+```
+---
+## class_alias for internal classes
+---
+```php
+class_alias('Traversable', 'NewTraversableInterface');
+```
+---
+## CLI -l for multiple files
+---
+```bash
+$ php -l file1.php file2.php
+No syntax errors detected in file1.php
+No syntax errors detected in file2.php
+```
+---
+```bash
+$ php -l *.php
+No syntax errors detected in file1.php
+No syntax errors detected in file2.php
+```
+---
+## Saner increment/decrement operations
+---
+### Current behaviour
+---
+```php
+$a = 1;
+echo $a++
+// 2
+```
+---
+```php
+$a = 'A';
+echo $a++
+// 'B'
+```
+---
+```php
+$a = 'A ';
+echo $a++
+// 'A'
+```
+---
+```php
+$a = 'B';
+echo $a--
+// 'B'
+```
+---
+### New in PHP 8.3
+---
+```php
+$a = 'A ';
+echo $a++
+// Deprecated: Increment on non-alphanumeric string has no effect and is deprecated
+'A '
+```
+---
+```php
+$a = 'B';
+echo $a--
+// Deprecated: Decrement on non-numeric string has no effect and is deprecated
+'B'
+```
+---
+## `unserialize` and additional bytes
+---
+```php
+var_dump(unserialize('i:5;i:6;'))
+// Warning: unserialize(): Extra data starting at offset 4 of 8 bytes in %s on line %d
+// int(5)
+```
+---
+## Better error handling with `unserialize`
+---
+```php
+try {
+    unserialize('something');
+} catch(/* was Throwable and is now */
+    UnserializationFailedException $e
+) {
+    $e->getPrevious(); // Throwable?
+}
+
+```
+---
+## `range` semantics
+---
+```php
+range('A', 'E', 1.0);
+// PHP  < 8.3: [0.0]
+// PHP >= 8.3: ['A', 'B', 'C', 'D', 'E']
+```
+---
+```php
+range('9', 'A');
+// PHP  < 8.3: [9, 8, 7, 6, 5, 4, 3, 2, 1]
+// PHP >= 8.3: ['9', ':', ';', '<', '=', '>', '?', '@', 'A']
+```
+---
+```php
+range(1, 5, 2.0);
+// PHP  < 8.3: [1.0, 3.0, 5.0]
+// PHP >= 8.3: [1, 3, 5]
+```
+---
+## `array_sum` and `array_product` improvements
+---
+```php
+array_sum([true, STDERR, new stdClass(), [], gmp_init(6)]);
+// PHP  < 8.3: 4 as STD_ERR gets cast to 3
+// PHP >= 8.3: 10 and some warnings that resource, stdClass and array are not supported
+```
+---
+# Deprecations
+---
+> Deprecations are not Errors!
+---
+* Clean up Deprecations in your code as soon as possible
+* Focus on Errors and Deprecations in **your** code
+---
+```bash
+composer require org_heigl/error_focus
+```
+```php
+\Org_Heigl\ErrorFocus\ErrorFocus::init([
+    __DIR__ . '/../vendor',
+]);
+```
+---
+## `assert_options`
+
+Will now emit an E_DEPRECATION
+---
+## passing negative values to `mb_strimwidth`
+---
+```php
+echo mb_strimwidth("Hello World", 0, -10, "...");
+```
+---
+## `NumberFormatter::TYPE_CURRENCY`
+---
+This has never been used so it is now removed.
+---
+## MT_RAND_MT19937
+---
+```php
+mt_srand();
+srand();
+```
+* Implementation was broken
+* Should be replaced by Randomizer-extension
+---
+## `ldap_connect($host, $port)`
+---
+```php
+ldap_connect($host, $port);
+// Deprecated: Usage of ldap_connect with two arguments is deprecated
+ldap_connect("ldap://{$host]:{$port}")
+```
+---
+## Deprecating overloaded function-signatures
+---
+### DatePeriod::__construct()
+---
+```php
+new DatePeriod($isostr, $options);
+// Deprecated: Use
+DatePeriod::createFromISO8601String($isostr, $options);
+```
+---
+### `dba_fetch`
+---
+```php
+function dba_fetch($key, $skip, $dba);
+// Deprecated: Instead use
+function dba_fetch($key, $dba, $skip);
+```
+---
+### static FFI-calls
+---
+```php
+FFI::cast();
+FFI::new();
+FFI::type();
+// Deprecated: Instead use
+$ffi->cast();
+$ffi->new();
+$ffi->type();
+```
+---
+## `get(_parent)_class` without parameter
+---
+```php
+get_class();
+get_parent_class();
+// Deprecated: Instead use
+get_class($this);
+self::class;
+parent::class;
+$reflectionClass::getParentClass();
+```
+---
+### `IntlCalendar::set`
+---
+```php
+$calendar->set($year, $month, $dayOfMonth);
+$calendar->set($year, $month, $dayOfMonth, $hour, $minute);
+$calendar->set($year, $month, $dayOfMonth, $hour, $minute, $second);
+// Deprecated:: Instead use
+$calendar->setDate($year, $month, $dayOfMonth);
+$calendar->setDateTime($year, $month, $dayOfMonth, $hour, $minute, $second);
+```
+---
+### `IntlGregorianCalendar::__construct()`
+---
+```php
+new IntlGregorianCalendar($year, $month, $dayOfMonth);
+new IntlGregorianCalendar($year, $month, $dayOfMonth, $hour, $minute, $second);
+// Deprecated: Instead use
+IntlGregorianCalendar::createFromDate($year, $month, $dayOfMonth);
+IntlGregorianCalendar::createFromDateTime($year, $month, $dayOfMonth, $hour, $minute, $second);
+```
+---
+### `ldap_connect` with Wallet
+---
+```php
+ldap_connect($uri, $port, $wallet, $password, $authMode);
+// Deprecated: Instead call
+ldap_connect_wallet($uri, $wallet, $password, $authMode);
+```
+---
+### synchronous `ldap_exop`
+---
+```php
+ldap_exop($ldap, $oid, $data, $controls, $responseData, $responseOid);
+// Deprecated: Instead use
+ldap_exop_sync($ldap, $oid, $data, $controls, $responseData, $responseOid);
+```
+---
+### `$row` nullable in `pg_*` functions
+---
+* pg_fetch_result
+* pg_field_prtlen
+* pg_field_is_null
+---
+### `Phar::setStub()`
+---
+```php
+$phar->setStub($resource, $length);
+// Deprecated: Instead use
+$phar->setStub(stream_get_contents($resource, $length));
+```
+---
+### `ReflectionMethod::__construct()`
+---
+```php
+new ReflectionMethod('Foo::bar');
+// Deprecated in 8.4!: Instead use
+ReflectionMethod::createFromMethodName('Foo::bar');
+```
+---
+### `ReflectionProperty::setValue()`
+---
+```php
+$reflProp->setValue($unused, $value);
+$reflProp->setValue($value);
+// Deprecated: Instead use
+$reflProp->setValue(null, $value);
+```
+---
+### `stream_context_set_option`
+---
+```php
+stream_context_set_option($context, $options):
+// Deprecated in PHP8.4: Instead use
+stream_context_set_options($context, $options):
+```
+---
+# Party 🎉
+---
+# Wait...
+---
+# What about...
+---
+# Release Cycle
+---
+* Active Support by the community for 2 years
+* Plus one year security support
+Note: Currently RFC to extend security support to 2 years. Volunteers, no funding
+---
+# Why?
+---
+* Volunteers!
+* Release-Managers for 4 years
+* Limited funding via [PHPFoundation](https://thephp.foundation)
+---
+> You make money with PHP?
+> 
+> You should support the [PHPFoundation](https://thephp.foundation)!
+---
+# Is your company mentioned [here](https://opencollective.com/phpfoundation)?
+---
+# Active Support?
+---
+* 8.3 - until 23. Nov. 2025
+* <!-- .element: class="fragment"-->8.2 - until 8. Dec. 2024
+* <!-- .element: class="fragment"-->8.1 - until 25. Nov. 2023 😳
+* <!-- .element: class="fragment"-->8.0 - until 26. Nov. 2022 😱
+---
+# But... Security Support?
+---
+* 8.3 - until 23. Nov. 2026
+* <!-- .element: class="fragment"-->8.2 - until 8. Dec. 2025
+* <!-- .element: class="fragment"-->8.1 - until 25. Nov. 2024
+* <!-- .element: class="fragment"-->8.0 - until 26. Nov. 2023 😱
+---
+# Upgrade to PHP8.2 or 8.3!
+#<!-- .element: class="fragment"-->NOW!
+---
+> Just do it.
+---
+> Or use vendor-packages (ubuntu, redhat, Zend)
+---
+# How to upgrade?
+---
+* [RFCs](https://wiki.php.net/rfc#php_83)
+* [PHP.Watch](https://php.watch)

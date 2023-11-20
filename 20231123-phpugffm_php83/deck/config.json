@@ -1,0 +1,11 @@
+{
+	"name": "PHP 8.3",
+	"speaker": "Andreas Heigl",
+	"eventdate": "23.11.2023",
+	"event": "PHPUGFFM 5/2023",
+	"eventslug": "20231123-phpugffm",
+	"twitter": "@heiglandreas@phpc.social",
+	"slides": [{
+		"file": "01.md"
+	}]
+}

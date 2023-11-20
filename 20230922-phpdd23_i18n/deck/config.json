@@ -1,0 +1,22 @@
+{
+	"name": "i18n",
+	"event": "PHP Developer Day 2023",
+	"eventdate": "22.09.2023",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandrea@phpc.social",
+	"title": "Pardon my french",
+	"eventslug": "20230922-phpdd23",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-talk.md"
+	}]
+}

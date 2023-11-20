@@ -1,6 +1,9 @@
 ## Upcoming talks and events
 
 ## Slides for talks I held so far
+* [What's new and shiny in PHP 8.3](https://heiglandreas.github.io/slidedeck/20231123-phpugffm_php83/index.html) - The new features of PHP8.3 - [PHPUGFFM](https://phpugffm.de) - 23.11.2023 - english
+* [Pardon my french](https://heiglandreas.github.io/slidedeck/20230922/phpdd23_i18n/index.html) - technical aspects of i18n and l10n - PHP Developer Day Dresden 2023 - 22.09.2023 - english
+* [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20230914-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 14.09.2023 - german
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/20230526-phperssummit_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [PHPers Summit 2023](https://summit.phpers.pl) - 26.05.2023 - english
 * [In the year 2525...](https://heiglandreas.github.io/slidedeck/20230314-phpamersfoort_calendar/index.html) - ... calendars and PHP - PHPAmersfoort - 14.03.2023 - english
 * [When UtC is the answer...](https://heiglandreas.github.io/slidedeck/20230223-confoo_whenUtcIsTheAnswer/index.html) - ... you might have asked the wron questions - [ConFoo](https://www.confoo.ca) - 23.02.2023 - english
