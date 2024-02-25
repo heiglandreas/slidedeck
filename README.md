@@ -1,6 +1,8 @@
 ## Upcoming talks and events
+* Watch the Clock - An introduction to the ClockInterface of PSR-20 - [Dutch PHP-Conference](https://phpconference.nl) - 15.03.2024 - english
 
 ## Slides for talks I held so far
+* [In the year 2525...](https://heiglandreas.github.io/slidedeck/20230314-phpamersfoort_calendar/index.html) - ... calendars and PHP - PHP Usergroup Metropolregion Rhein-Neckar - 29.02.2024 - english
 * [What's new and shiny in PHP 8.3](https://heiglandreas.github.io/slidedeck/20231123-phpugffm_php83/index.html) - The new features of PHP8.3 - [PHPUGFFM](https://phpugffm.de) - 23.11.2023 - english
 * [Pardon my french](https://heiglandreas.github.io/slidedeck/20230922/phpdd23_i18n/index.html) - technical aspects of i18n and l10n - PHP Developer Day Dresden 2023 - 22.09.2023 - english
 * [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20230914-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 14.09.2023 - german

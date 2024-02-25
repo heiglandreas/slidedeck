@@ -1,0 +1,22 @@
+{
+	"name": "calendar",
+	"event": "PHP MRN",
+	"eventdate": "29.02.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "in the year 2525 ...",
+	"eventslug": "20240229-phpugmrn",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-slides.md"
+	}]
+}
