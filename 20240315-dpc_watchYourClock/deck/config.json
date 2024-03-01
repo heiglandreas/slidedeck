@@ -1,0 +1,27 @@
+{
+	"name": "watch the clock",
+	"event": "Dutch PHPConference 2024",
+	"eventdate": "15.03.2025",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Watch the Clock",
+	"eventslug": "20240315-dpc",
+	"_eventlogo": "deck/resources/phpers-summit-2023_logo.svg",
+	"additionalScripts": [
+		"deck/resources/jquery.min.js",
+		"deck/resources/slideshow.js"
+	],
+	"additionalStyles": [
+		"deck/resources/style.css"
+	],
+	"reveal": {
+		"ready" : [
+			"(a => {$((function(){$(\"#dg-container\").gallery({autoplay:!0})}))})"
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-talk.md"
+	}]
+}

@@ -1,5 +1,8 @@
 ## Upcoming talks and events
-* Watch the Clock - An introduction to the ClockInterface of PSR-20 - [Dutch PHP-Conference](https://phpconference.nl) - 15.03.2024 - english
+* [Watch the Clock](https://heiglandreas.github.io/slidedeck/20240315-dpc_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [Dutch PHP-Conference](https://phpconference.nl) - 15.03.2024 - english
+* Watch the Clock - An introduction to the ClockInterface of PSR-20 - [PHPDays Verona](https://phpday.it) - 16/17.05.2024 - english
+* In the year 2525... - ... calendars and PHP - Java-Usergroup Darmstadt - 20.06.2024 - english
+
 
 ## Slides for talks I held so far
 * [In the year 2525...](https://heiglandreas.github.io/slidedeck/20240229-phpugmrn_calendar/index.html) - ... calendars and PHP - PHP Usergroup Metropolregion Rhein-Neckar - 29.02.2024 - english
