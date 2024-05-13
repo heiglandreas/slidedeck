@@ -1,0 +1,32 @@
+{
+	"black": false,
+	"name": "watch the clock",
+	"event": "phpday 2024",
+	"eventdate": "16.05.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Watch the Clock",
+	"eventslug": "20240516-phpday",
+	"_eventlogo": "deck/resources/phpers-summit-2023_logo.svg",
+	"additionalScripts": [
+		"deck/resources/jquery.min.js",
+		"deck/resources/slideshow.js"
+	],
+	"additionalStyles": [
+		"deck/resources/style.css"
+	],
+	"reveal": {
+		"ready" : [
+			"(a => {$((function(){$(\"#dg-container\").gallery({autoplay:!0})}))})"
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "03.0-joindin.md"
+	},{
+		"file" : "02.0-talk.md"
+	},{
+		"file" : "03.0-joindin.md"
+	}]
+}
