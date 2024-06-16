@@ -1,0 +1,22 @@
+{
+	"name": "calendar",
+	"event": "jug-da",
+	"eventdate": "20.06.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "in the year 2525 ...",
+	"eventslug": "20240620-jug-da",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.j-slides.md"
+	}]
+}

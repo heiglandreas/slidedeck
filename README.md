@@ -1,5 +1,5 @@
 ## Upcoming talks and events
-* In the year 2525... - ... calendars and PHP - Java-Usergroup Darmstadt - 20.06.2024 - english
+* [In the year 2525...](https://heiglandreas.github.io/slidedeck/20240620-jug-da_calendar/index.html) - ... calendars and PHP - Java-Usergroup Darmstadt - 20.06.2024 - english
 * Pardon my french - technical aspects of i18n and l10n - PHP fwdays'24 Kyiv/online - 17.08.2024 - english
 
 
