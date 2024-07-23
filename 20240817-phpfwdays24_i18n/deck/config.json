@@ -1,0 +1,22 @@
+{
+	"name": "i18n",
+	"event": "PHP fwdays'24",
+	"eventdate": "17.08.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Pardon my french",
+	"eventslug": "20240817-phpfwdays24",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-talk.md"
+	}]
+}

@@ -1,6 +1,6 @@
 ## Upcoming talks and events
-* [In the year 2525...](https://heiglandreas.github.io/slidedeck/20240620-jug-da_calendar/index.html) - ... calendars and PHP - Java-Usergroup Darmstadt - 20.06.2024 - english
-* Pardon my french - technical aspects of i18n and l10n - PHP fwdays'24 Kyiv/online - 17.08.2024 - english
+* [Pardon my french](https://heiglandreas.github.io/slidedeck/20240817-phpfwdays24_i18n/index.html) - technical aspects of i18n and l10n - PHP fwdays'24 Kyiv/online - 17.08.2024 - english
+* [scaling diversity]() - How to scale diversity on a globaly distributed level - [PHP Serbia](https://2024.phpsrbija.rs/) - 06.09.2024 - english
 
 
 ## Slides for talks I held so far
@@ -19,7 +19,7 @@
 * 04.11.2022 @ [LonghornPHP](https://www.longhornphp.com): [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20221104.longhornphp/index.html) - An introduction to Unicode and how to use it in PHP and MySQL - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/WatchYourClock/20221013-forumphp/index.html) - An introduction into the ClockInterface of PSR-20 - [ForumPHP](https://event.afup.org/forum-php-2022) - 13.10.2022 - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/WatchYourClock/20220224-confoo/index.html) - An introduction into the ClockInterface of PSR-20 - [ConFoo](https://confoo.ca) - 24.02.2022 - english
-* [scaling :wqdiversity](https://heiglandreas.github.io/slidedeck/globalDiversity/20220223-confoo/index.html) - How to scale diversity on a globaly distributed level - [ConFoo](https://confoo.ca) - 23.02.2022 - english
+* [scaling diversity](https://heiglandreas.github.io/slidedeck/globalDiversity/20220223-confoo/index.html) - How to scale diversity on a globaly distributed level - [ConFoo](https://confoo.ca) - 23.02.2022 - english
 * [scaling diversity](https://heiglandreas.github.io/slidedeck/globalDiversity/20211015-comference/index.html) - How to scale diversity on a globaly distributed level - [Comference](https://comference.online) - 15.10.2021 - english [🎞](https://youtu.be/hw4aEVyBffU)
 * [time is an illusion](https://heiglandreas.github.io/slidedeck/time_is_an_illusion/20210902-scd/index.html) - An introduction to timezones and how to handle them. Easily - Shopware Community Day (online) - 02.09.2021 - english
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/HowToHandlePILE_OF_POO/20210517-phphampshire/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [PHP Hampshire](https://www.meetup.com/meetup-group-phphants) (online) - 17.05.2021 - english
