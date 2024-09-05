@@ -1,0 +1,22 @@
+{
+	"name": "upgradePostgres",
+	"event": "Workshop Geodatenbanken",
+	"eventdate": "04.09.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "andreas@stella-maris.solutions",
+	"title": "Postgres Tipps & Tricks ...",
+	"eventslug": "20240904-geodatenbankenworkshop",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}, {
+		"file" : "02.0-slides.md"
+	}]
+}

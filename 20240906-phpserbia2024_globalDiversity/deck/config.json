@@ -1,0 +1,20 @@
+{
+	"name": "globalDiversity",
+	"event": "PHPSerbia 24",
+	"eventdate": "06.09.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Scaling Diversity",
+	"eventslug": "20240906-phpserbia2024",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	}]
+}
