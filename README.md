@@ -1,9 +1,10 @@
 ## Upcoming talks and events
-* [Pardon my french](https://heiglandreas.github.io/slidedeck/20240817-phpfwdays24_i18n/index.html) - technical aspects of i18n and l10n - PHP fwdays'24 Kyiv/online - 17.08.2024 - english
-* [scaling diversity]() - How to scale diversity on a globaly distributed level - [PHP Serbia](https://2024.phpsrbija.rs/) - 06.09.2024 - english
 
 
 ## Slides for talks I held so far
+* [scaling diversity](https://heiglandreas.github.io/slidedeck/20240906-phpserbia2024_globalDiversity/index.html) - How to scale diversity on a globaly distributed level - [PHP Serbia](https://2024.phpsrbija.rs/) - 06.09.2024 - english
+* [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20240904-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 04.09.2024 - german
+* [Pardon my french](https://heiglandreas.github.io/slidedeck/20240817-phpfwdays24_i18n/index.html) - technical aspects of i18n and l10n - PHP fwdays'24 Kyiv/online - 17.08.2024 - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/20240516-phpday_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [PHPDays Verona](https://phpday.it) - 16/17.05.2024 - english
 * [Watch the Clock](https://heiglandreas.github.io/slidedeck/20240315-dpc_watchYourClock/index.html) - An introduction to the ClockInterface of PSR-20 - [Dutch PHP-Conference](https://phpconference.nl) - 15.03.2024 - english
 * [In the year 2525...](https://heiglandreas.github.io/slidedeck/20240229-phpugmrn_calendar/index.html) - ... calendars and PHP - PHP Usergroup Metropolregion Rhein-Neckar - 29.02.2024 - english
