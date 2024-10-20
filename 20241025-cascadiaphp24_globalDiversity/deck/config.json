@@ -1,0 +1,22 @@
+{
+	"name": "globalDiversity",
+	"event": "CascadiaPHP 24",
+	"eventdate": "25.10.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Scaling Diversity",
+	"eventslug": "20241025-cascadiaphp24",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01.0-frontmatter.md"
+	},{
+		"file" : "98.0-joindin.md"
+	}]
+}
