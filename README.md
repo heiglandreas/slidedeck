@@ -2,6 +2,8 @@
 
 * [scaling diversity](https://heiglandreas.github.io/slidedeck/20241025-cascadiaphp24_globalDiversity/index.html) - How to scale diversity on a globaly distributed level - [Cascadia PHP 24](https://cascadiaphp.com/) - 25.10.2024 - english
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/20241026-cascadiaphp24_tameUnicorn/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [Cascadia PHP 24](https://cascadiaphp.com) - 26.10.2024 - english
+* [The first contact](https://heiglandreas.github.io/slidedeck/20241113-symfonyUsergroupZurich_firstContact/index.html) - How to handle contact forms - [Symfony Usergroup Zurich](https://www.meetup.com/sfugzh) - 13.11.2024 - english
+
 
 ## Slides for talks I held so far
 * [scaling diversity](https://heiglandreas.github.io/slidedeck/20240906-phpserbia2024_globalDiversity/index.html) - How to scale diversity on a globaly distributed level - [PHP Serbia](https://2024.phpsrbija.rs/) - 06.09.2024 - english
