@@ -1,0 +1,44 @@
+{
+	"name": "firstContact",
+	"event": "sfugzh",
+	"eventdate": "13.11.2024",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "The First Contact",
+	"eventslug": "20241113-sfugzh",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "01-frontmatter.md"
+	}, {
+		"file" : "02-examples.md"
+	}, {
+		"file" : "03-names.md"
+	}, {
+		"file" : "04-dates.md"
+	}, {
+		"file" : "05-gender.md"
+	}, {
+		"file" : "06-email.md"
+	}, {
+		"file" : "07-required_fields.md"
+	}, {
+		"file" : "08-error_messages.md"
+	}, {
+		"file" : "09-passwords.md"
+	}, {
+		"file" : "10-copy_paste.md"
+	}, {
+		"file" : "11-securityquestions.md"
+	}, {
+		"file" : "12-captchas.md"
+	}, {
+		"file" : "99-backmatter.md"
+	}]
+}
