@@ -1,5 +1,6 @@
 ## Upcoming talks and events
 
+* [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20240904-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 24.09.2026 - german
 * [Free - as in beer](https://heiglandreas.github.io/slidedeck/20260925-phpdd26_FreeAsInBeer/index.html) - Free services and the community - [PHP Developer Day 26](https://phpdd.org) - 25.09.2026 - english
 
 
