@@ -1,10 +1,10 @@
 ## Upcoming talks and events
 
-* [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20240904-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 24.09.2026 - german
-* [Free - as in beer](https://heiglandreas.github.io/slidedeck/20260925-phpdd26_FreeAsInBeer/index.html) - Free services and the community - [PHP Developer Day 26](https://phpdd.org) - 25.09.2026 - english
 
 
 ## Slides for talks I held so far
+* [Free - as in beer](https://heiglandreas.github.io/slidedeck/20260925-phpdd26_FreeAsInBeer/index.html) - Free services and the community - [PHP Developer Day 26](https://phpdd.org) - 25.09.2026 - english
+* [Upgrading Postgres](https://heiglandreas.github.io/slidedeck/20240904-geodatenbankenworkshop_upgradePostgres/index.html) - How to get PostgreSQL to the latest version - Geodatenbanken-Workshop IKGis - 24.09.2026 - german
 * [The first contact](https://heiglandreas.github.io/slidedeck/20241113-sfugzh_firstContact/index.html) - How to handle contact forms - [Symfony Usergroup Zurich](https://www.meetup.com/sfugzh) - 13.11.2024 - english
 * [scaling diversity](https://heiglandreas.github.io/slidedeck/20241025-cascadiaphp24_globalDiversity/index.html) - How to scale diversity on a globaly distributed level - [Cascadia PHP 24](https://cascadiaphp.com/) - 25.10.2024 - english
 * [How to tame a 🦄](https://heiglandreas.github.io/slidedeck/20241026-cascadiaphp24_tameUnicorn/index.html) - An introduction to Unicode and how to use it in PHP and MySQ - [Cascadia PHP 24](https://cascadiaphp.com) - 26.10.2024 - english

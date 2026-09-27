@@ -1,0 +1,20 @@
+{
+	"name": "FreeAsInBeer",
+	"event": "PHPDD 26",
+	"eventdate": "25.09.2026",
+	"speaker": "Andreas Heigl",
+	"twitter": "@heiglandreas@phpc.social",
+	"title": "Free, as in beer",
+	"eventslug": "20260925-phpdd26",
+	"additionalScripts": [
+	],
+	"additionalStyles": [
+	],
+	"reveal": {
+		"ready" : [
+		]
+	},
+	"slides": [{
+		"file" : "FreeAsInBeer.md"
+	}]
+}
